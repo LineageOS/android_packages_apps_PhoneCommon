@@ -30,6 +30,7 @@ import android.text.TextUtils;
 import android.text.style.TtsSpan;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,6 +43,7 @@ import android.widget.TextView;
 
 import com.android.phone.common.R;
 import com.android.phone.common.animation.AnimUtils;
+import com.android.phone.common.util.SettingsUtil;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -128,6 +130,10 @@ public class DialpadView extends LinearLayout {
         }
     }
 
+    public void refreshKeypad() {
+        setupKeypad();
+    }
+
     private void setupKeypad() {
         final int[] letterIds = new int[] {
             R.string.dialpad_0_letters,
@@ -144,11 +150,21 @@ public class DialpadView extends LinearLayout {
             R.string.dialpad_pound_letters
         };
 
-        final Resources resources = getContext().getResources();
+        final int[] letter2Ids = new int[] {
+                R.string.dialpad_0_2_letters, R.string.dialpad_1_2_letters,
+                R.string.dialpad_2_2_letters, R.string.dialpad_3_2_letters,
+                R.string.dialpad_4_2_letters, R.string.dialpad_5_2_letters,
+                R.string.dialpad_6_2_letters, R.string.dialpad_7_2_letters,
+                R.string.dialpad_8_2_letters, R.string.dialpad_9_2_letters,
+                R.string.dialpad_star_2_letters, R.string.dialpad_pound_2_letters};
+
+        Locale t9SearchInputLocale = SettingsUtil.getT9SearchInputLocale(getContext());
+        final Resources resources = getResourcesForLocale(t9SearchInputLocale);
 
         DialpadKeyButton dialpadKey;
         TextView numberView;
         TextView lettersView;
+        TextView letters2View;
 
         final Locale currentLocale = resources.getConfiguration().locale;
         final NumberFormat nf;
@@ -449,5 +465,13 @@ public class DialpadView extends LinearLayout {
 
         Log.wtf(TAG, "Attempted to get animation duration for invalid key button id.");
         return 0;
+    }
+
+    private Resources getResourcesForLocale(Locale locale) {
+        Configuration defaultConfig = getContext().getResources().getConfiguration();
+        Configuration overrideConfig = new Configuration(defaultConfig);
+        overrideConfig.setLocale(locale);
+        Context localeContext = getContext().createConfigurationContext(overrideConfig);
+        return localeContext.getResources();
     }
 }
