@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "fad55976_11f30b0c",
+        "filename": "src/com/android/phone/common/animation/AnimUtils.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2015-01-24T01:37:47Z",
+      "side": 1,
+      "message": "I know. I meant \u0027durationMs\u0027 should be replaced with \u0027duration\u0027 be cause it\u0027s clear anyway that milliseconds are the unit for the duration.",
+      "parentUuid": "fad55976_d1e85319",
+      "revId": "63e953822b35c8a6aef2f44419e0f1cf396143e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fad55976_91909b97",
         "filename": "src/com/android/phone/common/animation/AnimUtils.java",
         "patchSetId": 2
