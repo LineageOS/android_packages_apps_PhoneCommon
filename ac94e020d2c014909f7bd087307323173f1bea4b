@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_c48c5238",
+        "filename": "res/values-land-hdpi/dimens.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-05-28T07:02:30Z",
+      "side": 1,
+      "message": "CyanogenMod",
+      "range": {
+        "startLine": 3,
+        "startChar": 27,
+        "endLine": 3,
+        "endChar": 39
+      },
+      "revId": "ac94e020d2c014909f7bd087307323173f1bea4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_a4874611",
+        "filename": "res/values-land-hdpi/dimens.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-05-28T07:02:30Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 2
+      },
+      "revId": "ac94e020d2c014909f7bd087307323173f1bea4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
