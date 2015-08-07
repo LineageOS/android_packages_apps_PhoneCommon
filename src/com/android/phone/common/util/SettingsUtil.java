@@ -35,6 +35,7 @@ import com.android.phone.common.R;
 
 import java.lang.CharSequence;
 import java.lang.String;
+import java.util.Locale;
 
 public class SettingsUtil {
     private static final String DEFAULT_NOTIFICATION_URI_STRING =
@@ -99,5 +100,10 @@ public class SettingsUtil {
             summary = context.getString(R.string.default_notification_description, summary);
         }
         handler.sendMessage(handler.obtainMessage(msg, summary));
+    }
+
+    public static Locale getT9SearchInputLocale(Context context) {
+        // Use system locale by default
+        return context.getResources().getConfiguration().locale;
     }
 }
