@@ -22,6 +22,9 @@
         <com.android.phone.common.dialpad.DialpadTextView
             android:id="@+id/dialpad_key_number"
             style="@style/DialpadKeyNumberStyle" />
+        <TextView
+            android:id="@+id/dialpad_key_labels"
+            style="@style/DialpadKeyLettersStyle" />
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >

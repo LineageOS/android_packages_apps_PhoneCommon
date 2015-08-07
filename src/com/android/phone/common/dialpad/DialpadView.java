@@ -144,11 +144,18 @@ public class DialpadView extends LinearLayout {
             R.string.dialpad_pound_letters
         };
 
+        final int[] labelIds = new int[] {R.string.dialpad_0_labels, R.string.dialpad_1_labels,
+                R.string.dialpad_2_labels, R.string.dialpad_3_labels, R.string.dialpad_4_labels,
+                R.string.dialpad_5_labels, R.string.dialpad_6_labels, R.string.dialpad_7_labels,
+                R.string.dialpad_8_labels, R.string.dialpad_9_labels,
+                R.string.dialpad_star_labels, R.string.dialpad_pound_labels};
+
         final Resources resources = getContext().getResources();
 
         DialpadKeyButton dialpadKey;
         TextView numberView;
         TextView lettersView;
+        TextView labelsView;
 
         final Locale currentLocale = resources.getConfiguration().locale;
         final NumberFormat nf;
@@ -164,6 +171,7 @@ public class DialpadView extends LinearLayout {
             dialpadKey = (DialpadKeyButton) findViewById(mButtonIds[i]);
             numberView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_number);
             lettersView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_letters);
+            labelsView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_labels);
 
             final String numberString;
             final CharSequence numberContentDescription;
@@ -202,6 +210,15 @@ public class DialpadView extends LinearLayout {
 
             if (lettersView != null) {
                 lettersView.setText(resources.getString(letterIds[i]));
+            }
+            if (labelsView != null) {
+               String label = resources.getString(labelIds[i]);
+                if (!TextUtils.isEmpty(label)) {
+                    labelsView.setVisibility(View.VISIBLE);
+                    labelsView.setText(label);
+                } else {
+                    labelsView.setVisibility(View.GONE);
+                }
             }
         }
 
