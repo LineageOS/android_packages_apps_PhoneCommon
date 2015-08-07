@@ -29,7 +29,12 @@
             style="@style/DialpadKeyNumberStyle" />
 
         <TextView
+            android:id="@+id/dialpad_key_labels"
+            style="@style/DialpadKeyLettersStyle" />
+
+        <TextView
             android:id="@+id/dialpad_key_letters"
             style="@style/DialpadKeyLettersStyle" />
+
     </LinearLayout>
 </com.android.phone.common.dialpad.DialpadKeyButton>

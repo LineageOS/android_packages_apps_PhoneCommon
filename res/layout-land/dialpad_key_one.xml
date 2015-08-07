@@ -28,6 +28,11 @@
             android:layout_gravity="right"
             android:layout_marginBottom="0dp"
             android:layout_marginRight="@dimen/dialpad_key_one_margin_right" />
+        <TextView
+            android:id="@+id/dialpad_key_labels"
+            style="@style/DialpadKeyLettersStyle"
+            android:layout_width="@dimen/dialpad_key_text_width"
+            android:layout_gravity="right|bottom" />
         <FrameLayout
             android:layout_width="@dimen/dialpad_key_text_width"
             android:layout_height="wrap_content"
