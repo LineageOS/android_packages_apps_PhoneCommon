@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_e377e839",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T02:09:52Z",
+      "side": 1,
+      "message": "alignment",
+      "range": {
+        "startLine": 217,
+        "startChar": 28,
+        "endLine": 218,
+        "endChar": 60
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_c392ec4b",
+        "filename": "src-ambient/com/android/phone/common/incall/api/ApiHelper.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T02:09:52Z",
+      "side": 1,
+      "message": "I feel like this entire helper can be removed...",
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0373244f",
+        "filename": "src-ambient/com/android/phone/common/incall/api/ApiHelper.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T02:09:52Z",
+      "side": 1,
+      "message": "shouldn\u0027t you do a similar check here? or is ContactDataSubscription always created?",
+      "range": {
+        "startLine": 21,
+        "startChar": 10,
+        "endLine": 21,
+        "endChar": 15
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_a38fb021",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T02:09:52Z",
+      "side": 1,
+      "message": "It looks like all calls into this class know the type of AmbientDataSubscription needed. I feel like the call to ApiHelper.getInstance(Context) is a little overkill. Why not just pass in the sInstance directly from the AmbientDataSubscription?",
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
