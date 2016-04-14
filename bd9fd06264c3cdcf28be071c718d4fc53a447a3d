@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "7faddb67_cb08c2da",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "this is not the opposite of what you\u0027re doing in enable.\nI think what you mean to do is\nmEnabledListeners.containsKey(cn) \u0026\u0026 mEnabledListeners.get(cn)",
+      "range": {
+        "startLine": 156,
+        "startChar": 12,
+        "endLine": 156,
+        "endChar": 74
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_abbc66dc",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "you\u0027re unsubscribing right? you added to mRegisteredClients in subscribe, and you\u0027re only going to disable if its empty?",
+      "range": {
+        "startLine": 199,
+        "startChar": 8,
+        "endLine": 199,
+        "endChar": 41
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_e377e839",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 9
@@ -18,6 +64,191 @@
         "startChar": 28,
         "endLine": 218,
         "endChar": 60
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6b0f4ee1",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "and this is why you use 8 spaces instead of aligning with other parameters.",
+      "parentUuid": "7faddb67_e377e839",
+      "range": {
+        "startLine": 217,
+        "startChar": 28,
+        "endLine": 218,
+        "endChar": 60
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4bf4d2cf",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "code exists below. remove, and \"else if\" the next block",
+      "range": {
+        "startLine": 229,
+        "startChar": 24,
+        "endLine": 231,
+        "endChar": 31
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_2be71615",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "getPluginInfo().containsKey(cn) will return a boolean, no need to query and then compare against null",
+      "range": {
+        "startLine": 238,
+        "startChar": 28,
+        "endLine": 238,
+        "endChar": 68
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_eb025eb4",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 245,
+        "startChar": 28,
+        "endLine": 246,
+        "endChar": 35
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_cb31a2a4",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "what is this new line?",
+      "range": {
+        "startLine": 295,
+        "startChar": 44,
+        "endLine": 296,
+        "endChar": 67
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6b28ae33",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "this is overkill, getPluginInfo().get(cn) already does this.",
+      "range": {
+        "startLine": 317,
+        "startChar": 8,
+        "endLine": 321,
+        "endChar": 9
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_eb9ede61",
+        "filename": "src-ambient/com/android/phone/common/incall/ContactsDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "clean up",
+      "range": {
+        "startLine": 94,
+        "startChar": 67,
+        "endLine": 96,
+        "endChar": 54
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_eb21fefc",
+        "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Use switch case on type instead of instanceof on result.\nFor those that have multiple type for a InCallResults method, just use fall through cases.",
+      "range": {
+        "startLine": 150,
+        "startChar": 8,
+        "endLine": 169,
+        "endChar": 9
       },
       "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
@@ -76,6 +307,259 @@
       "writtenOn": "2016-04-14T02:09:52Z",
       "side": 1,
       "message": "It looks like all calls into this class know the type of AmbientDataSubscription needed. I feel like the call to ApiHelper.getInstance(Context) is a little overkill. Why not just pass in the sInstance directly from the AmbientDataSubscription?",
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_8b864adb",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Like i mentioned earlier, actually define a type here.",
+      "range": {
+        "startLine": 47,
+        "startChar": 32,
+        "endLine": 47,
+        "endChar": 54
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_6b83cecd",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Like i mentioned earlier, actually define a type here.",
+      "range": {
+        "startLine": 95,
+        "startChar": 62,
+        "endLine": 95,
+        "endChar": 84
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_cb7c42ed",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Like i mentioned earlier, actually define a type here.",
+      "range": {
+        "startLine": 141,
+        "startChar": 62,
+        "endLine": 141,
+        "endChar": 84
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_ab79c6fc",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Like i mentioned earlier, actually define a type here.",
+      "range": {
+        "startLine": 153,
+        "startChar": 32,
+        "endLine": 153,
+        "endChar": 54
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0b1d7abc",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Like i mentioned earlier, actually define a type here.",
+      "range": {
+        "startLine": 164,
+        "startChar": 32,
+        "endLine": 164,
+        "endChar": 54
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4b237206",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallResults.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "reused elsewhere, please define as a string format and pass in relevant arguments",
+      "range": {
+        "startLine": 234,
+        "startChar": 16,
+        "endLine": 234,
+        "endChar": 68
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_2b6dd631",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallTypedResult.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "Like i mentioned earlier, actually define a type here for each result.",
+      "range": {
+        "startLine": 12,
+        "startChar": 4,
+        "endLine": 18,
+        "endChar": 64
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_4b685220",
+        "filename": "src-ambient/com/android/phone/common/incall/listeners/AuthenticationListenerImpl.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "nit: you\u0027re not getting anything here",
+      "range": {
+        "startLine": 33,
+        "startChar": 24,
+        "endLine": 33,
+        "endChar": 31
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0b725a12",
+        "filename": "src-ambient/com/android/phone/common/incall/listeners/CallCreditListenerImpl.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "nit: you\u0027re not getting anything here",
+      "range": {
+        "startLine": 32,
+        "startChar": 24,
+        "endLine": 32,
+        "endChar": 31
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_0b5fba0e",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodUtils.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "inconsistent indentations... see overloaded getVoIPResultReceiver below",
+      "range": {
+        "startLine": 162,
+        "startChar": 64,
+        "endLine": 162,
+        "endChar": 81
+      },
+      "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_eb4fbeba",
+        "filename": "src-ambient/com/android/phone/common/nudge/api/NudgeQueries.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 1,
+      "message": "not aligned. stick to 8 spaces.",
+      "range": {
+        "startLine": 17,
+        "startChar": 53,
+        "endLine": 18,
+        "endChar": 91
+      },
       "revId": "bd9fd06264c3cdcf28be071c718d4fc53a447a3d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

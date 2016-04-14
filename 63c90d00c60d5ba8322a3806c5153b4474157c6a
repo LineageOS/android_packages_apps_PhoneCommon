@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_cbd52245",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-14T21:33:49Z",
+      "side": 0,
+      "message": "nit: \"connection\" is still relevant",
+      "revId": "63c90d00c60d5ba8322a3806c5153b4474157c6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
