@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_abecadf3",
+        "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-15T18:21:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_05b132e2",
+      "range": {
+        "startLine": 100,
+        "startChar": 52,
+        "endLine": 100,
+        "endChar": 65
+      },
+      "revId": "4d2942e33a582e06c6b239f6f11c428884fb1782",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_e5c73645",
         "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
         "patchSetId": 10
@@ -36,6 +60,30 @@
       "writtenOn": "2016-04-15T13:13:36Z",
       "side": 1,
       "message": "hmm, looks like all you needed was the client, maybe only pass that instead of the AmbientDataSubscription.",
+      "range": {
+        "startLine": 25,
+        "startChar": 38,
+        "endLine": 25,
+        "endChar": 54
+      },
+      "revId": "4d2942e33a582e06c6b239f6f11c428884fb1782",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_cbe5690c",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-15T18:21:21Z",
+      "side": 1,
+      "message": "i needed the BOOTSTRAP too.",
+      "parentUuid": "5faad753_e5c73645",
       "range": {
         "startLine": 25,
         "startChar": 38,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_2be19dff",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-15T18:21:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_c5ca3a4e",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 8
+      },
+      "revId": "4d2942e33a582e06c6b239f6f11c428884fb1782",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_a5c13e31",
         "filename": "src-ambient/com/android/phone/common/incall/listeners/CallCreditListenerImpl.java",
         "patchSetId": 10
@@ -82,6 +154,30 @@
       "writtenOn": "2016-04-15T13:13:36Z",
       "side": 1,
       "message": "hm.. not sure how much i like this, but i\u0027m not to fond of keeping an instance of the datasubsciption hanging around either.",
+      "range": {
+        "startLine": 35,
+        "startChar": 39,
+        "endLine": 35,
+        "endChar": 75
+      },
+      "revId": "4d2942e33a582e06c6b239f6f11c428884fb1782",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4bd2d936",
+        "filename": "src-ambient/com/android/phone/common/incall/listeners/CallCreditListenerImpl.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-15T18:21:21Z",
+      "side": 1,
+      "message": "an instance of the instance....\n\nas long as we cleanup listeners properly (which we do right now) this shouldn\u0027t be an issue.",
+      "parentUuid": "5faad753_a5c13e31",
       "range": {
         "startLine": 35,
         "startChar": 39,
