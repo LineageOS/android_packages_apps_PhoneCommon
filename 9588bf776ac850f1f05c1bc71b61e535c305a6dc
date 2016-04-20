@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_73bb03e5",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "*shrug*\n\nfixed",
+      "parentUuid": "5faad753_7819a086",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13472f20",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
         "patchSetId": 16
@@ -30,6 +48,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "not necessarily a Dialer specific class .. right ?",
+      "range": {
+        "startLine": 21,
+        "startChar": 51,
+        "endLine": 21,
+        "endChar": 80
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_932f9ff5",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_13472f20",
       "range": {
         "startLine": 21,
         "startChar": 51,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_3334ab4a",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f3493332",
+      "range": {
+        "startLine": 37,
+        "startChar": 52,
+        "endLine": 37,
+        "endChar": 58
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_981edc6e",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -82,6 +148,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_33b58bef",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Nope, we don\u0027t proguard apps like we do Ambient stuffs.",
+      "parentUuid": "5faad753_981edc6e",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_93647fbb",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -93,6 +177,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "feels left out cause it doesn\u0027t have the \u0027s\u0027 prefix (hungarian)",
+      "range": {
+        "startLine": 53,
+        "startChar": 27,
+        "endLine": 53,
+        "endChar": 57
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_13c88f53",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_93647fbb",
       "range": {
         "startLine": 53,
         "startChar": 27,
@@ -128,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_b3c41b42",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_33590bfe",
+      "range": {
+        "startLine": 58,
+        "startChar": 10,
+        "endLine": 58,
+        "endChar": 41
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_93323fa7",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -139,6 +271,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "\" pluginInfo \" (not to be too pedantic)",
+      "range": {
+        "startLine": 83,
+        "startChar": 49,
+        "endLine": 83,
+        "endChar": 60
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d3c19730",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_93323fa7",
       "range": {
         "startLine": 83,
         "startChar": 49,
@@ -174,6 +330,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_73dc6318",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_732d4345",
+      "range": {
+        "startLine": 87,
+        "startChar": 5,
+        "endLine": 88,
+        "endChar": 58
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_38132869",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -191,6 +371,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_93e1dfd3",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_38132869",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_d3fe77ad",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -202,6 +400,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "interesting .. so this class also manages which api calls need to be made to the plugins ?",
+      "range": {
+        "startLine": 106,
+        "startChar": 28,
+        "endLine": 106,
+        "endChar": 44
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_33e6ebea",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Yup pretty much (let me know if you want to discuss this further offline)",
+      "parentUuid": "5faad753_d3fe77ad",
       "range": {
         "startLine": 106,
         "startChar": 28,
@@ -237,6 +459,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_53eb67af",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Any subclass will (right now) have their own methods to call in this. \n\nIn the future when we standardize our api\u0027s this whole class can get a lot simpler.",
+      "parentUuid": "5faad753_b3017bb2",
+      "range": {
+        "startLine": 113,
+        "startChar": 28,
+        "endLine": 113,
+        "endChar": 46
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13f5efcb",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -248,6 +494,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "need a bit more information on what a \"dynamic\" refresh is and how it differs from a normal refresh",
+      "range": {
+        "startLine": 120,
+        "startChar": 28,
+        "endLine": 120,
+        "endChar": 53
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f3cff354",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "added to docs.",
+      "parentUuid": "5faad753_13f5efcb",
       "range": {
         "startLine": 120,
         "startChar": 28,
@@ -283,6 +553,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_13cdef5c",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "fixed in comment",
+      "parentUuid": "5faad753_f3f7f3d3",
+      "range": {
+        "startLine": 123,
+        "startChar": 4,
+        "endLine": 128,
+        "endChar": 55
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_5313670e",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -300,6 +594,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_b3d97b23",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Do you have an example of this currently? It seems like everything that is multi-plugin focused uses ComponentNames.",
+      "parentUuid": "5faad753_5313670e",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_b36c1b9d",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -311,6 +623,24 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "maybe move the constructor towards the top of hte class definition so that it isn\u0027t buried in the middle ?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d3d677f2",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_b36c1b9d",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -340,6 +670,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_7305437a",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f372937c",
+      "range": {
+        "startLine": 144,
+        "startChar": 17,
+        "endLine": 144,
+        "endChar": 35
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_532607ba",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -351,6 +705,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "weird line break here.",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_930a3f88",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_532607ba",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -380,6 +752,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_33ffcb68",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "The client will then get the hashmap directly with getPluginInfo",
+      "parentUuid": "5faad753_535e07e7",
+      "range": {
+        "startLine": 189,
+        "startChar": 15,
+        "endLine": 189,
+        "endChar": 45
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_739a23c6",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -391,6 +787,24 @@
       "writtenOn": "2016-04-20T22:20:18Z",
       "side": 1,
       "message": "Is there a chance someone could pass this a null componentName?  If so this may throw an NPE depending on the Map\u0027s impl (i.e. does it accept null keys)\nhttp://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/Map.java?av\u003df",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b3ef3be8",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "HashMaps are good. :D",
+      "parentUuid": "5faad753_739a23c6",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -431,6 +845,42 @@
     },
     {
       "key": {
+        "uuid": "5faad753_13e3af07",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_9351df11",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_53e127fe",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f33a93cb",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_b3341be0",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -448,6 +898,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_5304c77b",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.18.1",
+      "parentUuid": "5faad753_b3341be0",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_3327cb67",
         "filename": "src-ambient/com/android/phone/common/ambient/SingletonHolder.java",
         "patchSetId": 16
@@ -459,6 +927,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "needs synchronization",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 5
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f3f8537d",
+        "filename": "src-ambient/com/android/phone/common/ambient/SingletonHolder.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_3327cb67",
       "range": {
         "startLine": 49,
         "startChar": 0,
@@ -494,6 +986,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_5339273f",
+        "filename": "src-ambient/com/android/phone/common/ambient/TypedPendingResult.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "actually this changed recently and this comment i had here is no longer valid. \n\nfixed.",
+      "parentUuid": "5faad753_532cc746",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 38
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_b39dfb67",
         "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
         "patchSetId": 16
@@ -505,6 +1021,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "plugins",
+      "range": {
+        "startLine": 10,
+        "startChar": 16,
+        "endLine": 10,
+        "endChar": 20
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_133baf38",
+        "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_b39dfb67",
       "range": {
         "startLine": 10,
         "startChar": 16,
@@ -540,6 +1080,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_f33db32c",
+        "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_d39af76c",
+      "range": {
+        "startLine": 12,
+        "startChar": 13,
+        "endLine": 12,
+        "endChar": 21
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_734c6376",
         "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
         "patchSetId": 16
@@ -551,6 +1115,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "This class getting proguarded?  We sure the tag won\u0027t get garbled?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_53ba87de",
+        "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "ditto",
+      "parentUuid": "5faad753_734c6376",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -574,6 +1156,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_f3ce1382",
+        "filename": "src-ambient/com/android/phone/common/incall/CallMethodInfo.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "the impl. \n\neach mod gets its own credit listener instance, this is just giving what was set.",
+      "parentUuid": "5faad753_337d8b6e",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13940f8b",
         "filename": "src-ambient/com/android/phone/common/incall/CallMethodSpinnerAdapter.java",
         "patchSetId": 16
@@ -585,6 +1185,24 @@
       "writtenOn": "2016-04-20T22:20:18Z",
       "side": 1,
       "message": "maybe this change was accidental?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_13cc0f88",
+        "filename": "src-ambient/com/android/phone/common/incall/CallMethodSpinnerAdapter.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "The lack of space was making me sad.",
+      "parentUuid": "5faad753_13940f8b",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -608,6 +1226,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_b3c89b74",
+        "filename": "src-ambient/com/android/phone/common/incall/ContactsDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "@erica has a patch up to go in with all these changes for this. \n\nbut yeah, otherwise i agree.",
+      "parentUuid": "5faad753_5374c799",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13664fef",
         "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
         "patchSetId": 16
@@ -619,6 +1255,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "Is this comment useful?  I\u0027ve seen it other places and it seems redundant.",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_73a0e3a6",
+        "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Let\u0027s get rid of it.",
+      "parentUuid": "5faad753_13664fef",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -642,6 +1296,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_b3473bbd",
+        "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f36853bb",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_d35f570c",
         "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
         "patchSetId": 16
@@ -653,6 +1325,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "do we need to handle empty cases?  If so can we break on them?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d34437ba",
+        "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "nope.",
+      "parentUuid": "5faad753_d35f570c",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -676,6 +1366,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_93a55fb8",
+        "filename": "src-ambient/com/android/phone/common/incall/StartInCallCallReceiver.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_939f9fb3",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_33a4ab08",
         "filename": "src-ambient/com/android/phone/common/incall/api/ApiHelper.java",
         "patchSetId": 16
@@ -687,6 +1395,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "copyright?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_33aa6b85",
+        "filename": "src-ambient/com/android/phone/common/incall/api/ApiHelper.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_33a4ab08",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -716,6 +1442,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_731303ba",
+        "filename": "src-ambient/com/android/phone/common/incall/api/ApiHelper.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "It makes things easier to keep track of within the respective folders.",
+      "parentUuid": "5faad753_d3ec37f5",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 5
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_53a927dd",
         "filename": "src-ambient/com/android/phone/common/incall/api/InCallListeners.java",
         "patchSetId": 16
@@ -727,6 +1477,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "copyright?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_53afe793",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallListeners.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_53a927dd",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -750,6 +1518,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_f393735b",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_13abafd6",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_d3b43738",
         "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
         "patchSetId": 16
@@ -761,6 +1547,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "weird line wrap here.",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b3f2db99",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_d3b43738",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -784,6 +1588,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_d3ef57ae",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallResults.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_73830358",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_9388ff71",
         "filename": "src-ambient/com/android/phone/common/incall/api/InCallResults.java",
         "patchSetId": 16
@@ -795,6 +1617,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "javadocs for any of these public methods?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_13916f53",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallResults.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "We don\u0027t typically do javadocs for apps. the places i\u0027ve done it here are places i think need more explanation.",
+      "parentUuid": "5faad753_9388ff71",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -818,6 +1658,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_732a23e8",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallResults.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Nah.",
+      "parentUuid": "5faad753_73e8e315",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_93ed5f27",
         "filename": "src-ambient/com/android/phone/common/incall/listeners/AuthenticationListenerImpl.java",
         "patchSetId": 16
@@ -829,6 +1687,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "Copyright?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_7389c324",
+        "filename": "src-ambient/com/android/phone/common/incall/listeners/AuthenticationListenerImpl.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_93ed5f27",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -852,6 +1728,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_33834b07",
+        "filename": "src-ambient/com/android/phone/common/incall/listeners/CallCreditListenerImpl.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_33f26b08",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_53f7e7f6",
         "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
         "patchSetId": 16
@@ -863,6 +1757,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "CR",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f37cd321",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_53f7e7f6",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -886,6 +1798,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_5388471e",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f3db737a",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13d96f82",
         "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
         "patchSetId": 16
@@ -897,6 +1827,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "we want to put a ticket number here?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_137acf23",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Actually this hasn\u0027t been a problem recently. i suspect it was an issue with one of the plugins during development. \n\nill just add a note that we\u0027ve seen this issue.",
+      "parentUuid": "5faad753_13d96f82",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -920,6 +1868,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_93931f50",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_b3e5fb3a",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_d3e2f72f",
         "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodUtils.java",
         "patchSetId": 16
@@ -931,6 +1897,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "we need to handle empty cases?  can we break?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_33982b69",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Nope, This is just a generic failure message. (right now, there\u0027s tickets open to possibly expand these)",
+      "parentUuid": "5faad753_d3e2f72f",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -954,6 +1938,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_539da757",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/MimeTypeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_73d1c357",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_33cb4ba6",
         "filename": "src-ambient/com/android/phone/common/nudge/api/ApiHelper.java",
         "patchSetId": 16
@@ -965,6 +1967,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "CR?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f3a13397",
+        "filename": "src-ambient/com/android/phone/common/nudge/api/ApiHelper.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_33cb4ba6",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -988,6 +2008,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_139f2f51",
+        "filename": "src-ambient/com/android/phone/common/nudge/api/NudgeQueries.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_53d04751",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_f3c4d394",
         "filename": "src-ambient/com/android/phone/common/nudge/api/NudgeTypedResult.java",
         "patchSetId": 16
@@ -999,6 +2037,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "cr",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_73b783da",
+        "filename": "src-ambient/com/android/phone/common/nudge/api/NudgeTypedResult.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f3c4d394",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -1028,6 +2084,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_b3abbb73",
+        "filename": "src-ambient/com/android/phone/common/nudge/api/NudgeTypedResult.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_f3e5b30b",
+      "range": {
+        "startLine": 20,
+        "startChar": 4,
+        "endLine": 20,
+        "endChar": 10
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_7336a3b7",
         "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
         "patchSetId": 16
@@ -1039,6 +2119,24 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "CR",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f3ca934d",
+        "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_7336a3b7",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -1068,6 +2166,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_93bc7fbc",
+        "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "Then we\u0027ll just shift the .getPackageName to the callers. \nEverything currently uses ComponentNames to identify packages.",
+      "parentUuid": "5faad753_b31adb14",
+      "range": {
+        "startLine": 17,
+        "startChar": 73,
+        "endLine": 17,
+        "endChar": 86
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13c2cf86",
         "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
         "patchSetId": 16
@@ -1085,6 +2207,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_33b10be3",
+        "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": "see other comment.",
+      "parentUuid": "5faad753_13c2cf86",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_d31757ed",
         "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
         "patchSetId": 16
@@ -1096,6 +2236,30 @@
       "writtenOn": "2016-04-20T23:06:52Z",
       "side": 1,
       "message": "need to catch a PackageNotFoundException or sth ?",
+      "range": {
+        "startLine": 20,
+        "startChar": 34,
+        "endLine": 20,
+        "endChar": 48
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_53b607dc",
+        "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-20T23:37:24Z",
+      "side": 1,
+      "message": ".queryIntentServices should handle this iirc. Nothing will return if the package is not found.",
+      "parentUuid": "5faad753_d31757ed",
       "range": {
         "startLine": 20,
         "startChar": 34,
