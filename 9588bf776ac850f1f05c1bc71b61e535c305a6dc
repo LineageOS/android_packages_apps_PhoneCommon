@@ -70,6 +70,23 @@
     },
     {
       "key": {
+        "uuid": "5faad753_739a23c6",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2016-04-20T22:20:18Z",
+      "side": 1,
+      "message": "Is there a chance someone could pass this a null componentName?  If so this may throw an NPE depending on the Map\u0027s impl (i.e. does it accept null keys)\nhttp://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/Map.java?av\u003df",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_f33a93cb",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -81,6 +98,23 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "comment line length.",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_9351df11",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2016-04-20T22:20:18Z",
+      "side": 1,
+      "message": "dat line length",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -115,6 +149,40 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "This class getting proguarded?  We sure the tag won\u0027t get garbled?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_337d8b6e",
+        "filename": "src-ambient/com/android/phone/common/incall/CallMethodInfo.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2016-04-20T22:20:18Z",
+      "side": 1,
+      "message": "Do you mean to return the impl or the interface/abstract class?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_13940f8b",
+        "filename": "src-ambient/com/android/phone/common/incall/CallMethodSpinnerAdapter.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2016-04-20T22:20:18Z",
+      "side": 1,
+      "message": "maybe this change was accidental?",
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
