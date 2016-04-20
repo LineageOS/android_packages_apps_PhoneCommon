@@ -19,6 +19,52 @@
     },
     {
       "key": {
+        "uuid": "5faad753_13472f20",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "not necessarily a Dialer specific class .. right ?",
+      "range": {
+        "startLine": 21,
+        "startChar": 51,
+        "endLine": 21,
+        "endChar": 80
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f3493332",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "why remove the word \"connection\" from the message ? \ninstead why not remove the word \"Ambient\" from the log msg as the tag already contains that and jst say \"Connection failed\"",
+      "range": {
+        "startLine": 37,
+        "startChar": 52,
+        "endLine": 37,
+        "endChar": 58
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_981edc6e",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -30,6 +76,98 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "Does this class get prguarded?  Will obfuscate this tag.",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_93647fbb",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "feels left out cause it doesn\u0027t have the \u0027s\u0027 prefix (hungarian)",
+      "range": {
+        "startLine": 53,
+        "startChar": 27,
+        "endLine": 53,
+        "endChar": 57
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_33590bfe",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "sentence structure",
+      "range": {
+        "startLine": 58,
+        "startChar": 10,
+        "endLine": 58,
+        "endChar": 41
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_93323fa7",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "\" pluginInfo \" (not to be too pedantic)",
+      "range": {
+        "startLine": 83,
+        "startChar": 49,
+        "endLine": 83,
+        "endChar": 60
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_732d4345",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "new line b/w the method description and the param description",
+      "range": {
+        "startLine": 87,
+        "startChar": 5,
+        "endLine": 88,
+        "endChar": 58
+      },
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +191,155 @@
     },
     {
       "key": {
+        "uuid": "5faad753_d3fe77ad",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "interesting .. so this class also manages which api calls need to be made to the plugins ?",
+      "range": {
+        "startLine": 106,
+        "startChar": 28,
+        "endLine": 106,
+        "endChar": 44
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b3017bb2",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "does this need to be abstract , can we not implement it in this class ? Atleast a basic verison of this. If a subclass needs to deviate , then can override this.",
+      "range": {
+        "startLine": 113,
+        "startChar": 28,
+        "endLine": 113,
+        "endChar": 46
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_13f5efcb",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "need a bit more information on what a \"dynamic\" refresh is and how it differs from a normal refresh",
+      "range": {
+        "startLine": 120,
+        "startChar": 28,
+        "endLine": 120,
+        "endChar": 53
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f3f7f3d3",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "the comment seems outta sync w/ the code\nare the methods asking to add a enable listener  for a particular plugin ?",
+      "range": {
+        "startLine": 123,
+        "startChar": 4,
+        "endLine": 128,
+        "endChar": 55
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_5313670e",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "what if subclasses need more information than jst a ComponentName create their representation of what a Plugin is for that API type ?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b36c1b9d",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "maybe move the constructor towards the top of hte class definition so that it isn\u0027t buried in the middle ?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f372937c",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "might  want to rename this method .. hard to figure out that this is trying to  add an \"enabled\" listener for a mod",
+      "range": {
+        "startLine": 144,
+        "startChar": 17,
+        "endLine": 144,
+        "endChar": 35
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_532607ba",
         "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
         "patchSetId": 16
@@ -64,6 +351,29 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "weird line break here.",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_535e07e7",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientDataSubscription.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "so what is the recourse for a client if the \"data has been broadcast previously\" , do i then query for all info ?",
+      "range": {
+        "startLine": 189,
+        "startChar": 15,
+        "endLine": 189,
+        "endChar": 45
+      },
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -132,6 +442,98 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "String builders for these?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_3327cb67",
+        "filename": "src-ambient/com/android/phone/common/ambient/SingletonHolder.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "needs synchronization",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 5
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_532cc746",
+        "filename": "src-ambient/com/android/phone/common/ambient/TypedPendingResult.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "soo then this should be an abstract class ? \nand you need to move the INCALL stuff into a subclass ?",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 38
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b39dfb67",
+        "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "plugins",
+      "range": {
+        "startLine": 10,
+        "startChar": 16,
+        "endLine": 10,
+        "endChar": 20
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d39af76c",
+        "filename": "src-ambient/com/android/phone/common/ambient/utils/ModUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "PluginUtils",
+      "range": {
+        "startLine": 12,
+        "startChar": 13,
+        "endLine": 12,
+        "endChar": 21
+      },
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -285,6 +687,29 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "copyright?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d3ec37f5",
+        "filename": "src-ambient/com/android/phone/common/incall/api/ApiHelper.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "not sure if this class serves a purpose ?",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 5
+      },
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -580,6 +1005,29 @@
     },
     {
       "key": {
+        "uuid": "5faad753_f3e5b30b",
+        "filename": "src-ambient/com/android/phone/common/nudge/api/NudgeTypedResult.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "make method public ?",
+      "range": {
+        "startLine": 20,
+        "startChar": 4,
+        "endLine": 20,
+        "endChar": 10
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_7336a3b7",
         "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
         "patchSetId": 16
@@ -597,6 +1045,29 @@
     },
     {
       "key": {
+        "uuid": "5faad753_b31adb14",
+        "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "why not take in a String (for package name ) as the param",
+      "range": {
+        "startLine": 17,
+        "startChar": 73,
+        "endLine": 17,
+        "endChar": 86
+      },
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_13c2cf86",
         "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
         "patchSetId": 16
@@ -608,6 +1079,29 @@
       "writtenOn": "2016-04-20T22:09:30Z",
       "side": 1,
       "message": "Java doc this?",
+      "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_d31757ed",
+        "filename": "src-ambient/com/android/phone/common/nudge/utils/NudgeUtils.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-20T23:06:52Z",
+      "side": 1,
+      "message": "need to catch a PackageNotFoundException or sth ?",
+      "range": {
+        "startLine": 20,
+        "startChar": 34,
+        "endLine": 20,
+        "endChar": 48
+      },
       "revId": "9588bf776ac850f1f05c1bc71b61e535c305a6dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
