@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c820f9fa",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 19
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 12941
+      },
+      "writtenOn": "2016-04-25T15:55:44Z",
+      "side": 1,
+      "message": "need to provide an empty Uri for this PendingIntent to work properly\nTypedPendingResult(thisApi().getDirectorySearchIntent(client, componentName, Uri.parse(\"\"), TypedPendingResult.DEFAULT_DIRECTORY_SEARCH_INTENT);",
+      "revId": "f4f28de1dbdc8cc3d0676441d503b5f579a31543",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
