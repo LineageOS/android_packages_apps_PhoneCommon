@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_dc7d1ee8",
+        "filename": "src/com/android/phone/common/util/VolteUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2016-04-25T19:17:40Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be part of the isVolteAvailable check ?\n\nfor that matter what is the difference b/w the two calls isVolteAvailable and isVolteInUse ? When would I use one over the other ?",
+      "range": {
+        "startLine": 42,
+        "startChar": 27,
+        "endLine": 42,
+        "endChar": 45
+      },
+      "revId": "ffe1bbe26cbc81bbb29f1aee6ef7fc43f948f7f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
