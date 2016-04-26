@@ -16,6 +16,24 @@
       "revId": "f4f28de1dbdc8cc3d0676441d503b5f579a31543",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_55f6e191",
+        "filename": "src-ambient/com/android/phone/common/incall/api/InCallQueries.java",
+        "patchSetId": 19
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-26T16:22:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_c820f9fa",
+      "revId": "f4f28de1dbdc8cc3d0676441d503b5f579a31543",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
