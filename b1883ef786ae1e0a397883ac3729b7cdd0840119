@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_21da03e9",
+        "filename": "src-ambient/com/android/phone/common/incall/ContactsDataSubscription.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-27T20:04:49Z",
+      "side": 1,
+      "message": "move this back.",
+      "range": {
+        "startLine": 88,
+        "startChar": 21,
+        "endLine": 89,
+        "endChar": 37
+      },
+      "revId": "b1883ef786ae1e0a397883ac3729b7cdd0840119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_61e9db7e",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-04-27T20:04:49Z",
+      "side": 1,
+      "message": "Why clone?",
+      "range": {
+        "startLine": 65,
+        "startChar": 53,
+        "endLine": 65,
+        "endChar": 60
+      },
+      "revId": "b1883ef786ae1e0a397883ac3729b7cdd0840119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
