@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_ace6e7e7",
+        "filename": "src-ambient/com/android/phone/common/incall/ContactsDataSubscription.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12941
+      },
+      "writtenOn": "2016-04-27T22:22:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_21da03e9",
+      "range": {
+        "startLine": 88,
+        "startChar": 21,
+        "endLine": 89,
+        "endChar": 37
+      },
+      "revId": "b1883ef786ae1e0a397883ac3729b7cdd0840119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_61e9db7e",
         "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2016-04-27T20:04:49Z",
       "side": 1,
       "message": "Why clone?",
+      "range": {
+        "startLine": 65,
+        "startChar": 53,
+        "endLine": 65,
+        "endChar": 60
+      },
+      "revId": "b1883ef786ae1e0a397883ac3729b7cdd0840119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ccd00354",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodFilters.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 12941
+      },
+      "writtenOn": "2016-04-27T22:22:03Z",
+      "side": 1,
+      "message": "every time QuickContactActivity queries the plugin data, it gets the most current instance of HashMap\u003cComponentName, CallMethodInfo\u003e and compares to the old instance of HashMap. The problem is the HashMap is a new instance but holding the same CallMethodInfo instance so the diff check is meaningless unless the CallMethodInfo instance is cloned. http://review.cyanogenmod.org/#/c/142092/4/src/com/android/contacts/quickcontact/QuickContactActivity.java@3775",
+      "parentUuid": "5faad753_61e9db7e",
       "range": {
         "startLine": 65,
         "startChar": 53,
