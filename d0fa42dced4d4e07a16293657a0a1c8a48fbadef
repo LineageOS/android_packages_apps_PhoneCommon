@@ -34,6 +34,24 @@
       "revId": "d0fa42dced4d4e07a16293657a0a1c8a48fbadef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_dca0a8a8",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 14345
+      },
+      "writtenOn": "2016-05-02T15:38:42Z",
+      "side": 1,
+      "message": "Agreed.",
+      "parentUuid": "5faad753_bcba8cdb",
+      "revId": "d0fa42dced4d4e07a16293657a0a1c8a48fbadef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
