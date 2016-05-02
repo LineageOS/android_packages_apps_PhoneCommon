@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_1c1ba01b",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 14345
+      },
+      "writtenOn": "2016-05-02T15:24:25Z",
+      "side": 1,
+      "message": "Shouldn\u0027t SDK have some kind of \"verify you have the permissions for the api\u0027s you\u0027re requesting\" utility here?",
+      "revId": "d0fa42dced4d4e07a16293657a0a1c8a48fbadef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
