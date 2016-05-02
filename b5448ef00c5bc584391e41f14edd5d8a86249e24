@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_7cc89454",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 14345
+      },
+      "writtenOn": "2016-05-02T15:58:10Z",
+      "side": 1,
+      "message": "Maybe pull all this add/permissions stuff into an addApis() method?  Might make for easier testing if we get to that point.",
+      "revId": "b5448ef00c5bc584391e41f14edd5d8a86249e24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
