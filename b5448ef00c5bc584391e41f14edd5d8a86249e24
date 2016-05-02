@@ -34,6 +34,23 @@
       "revId": "b5448ef00c5bc584391e41f14edd5d8a86249e24",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_9cd0f0cb",
+        "filename": "src-ambient/com/android/phone/common/ambient/AmbientConnection.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 14345
+      },
+      "writtenOn": "2016-05-02T16:43:13Z",
+      "side": 1,
+      "message": "No permissions for these two?  Are we assuming they\u0027re always granted?",
+      "revId": "b5448ef00c5bc584391e41f14edd5d8a86249e24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
