@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_0c3a8535",
+        "filename": "src/com/android/phone/common/util/ViewUtil.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 14463
+      },
+      "writtenOn": "2016-05-04T21:33:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_a047ba4b",
+      "range": {
+        "startLine": 101,
+        "startChar": 8,
+        "endLine": 101,
+        "endChar": 49
+      },
+      "revId": "19bbbecb9d41531b03ec8aa99fd109aa3b04d338",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_4005a6c1",
         "filename": "src/com/android/phone/common/util/ViewUtil.java",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2016-05-03T19:09:37Z",
       "side": 1,
       "message": "This doesn\u0027t seem like a rounding error, rounding up the float you pass seems like intended behavior.\nYou might want to consider two things,\n1) modifying your comment to make it clear what is happening, its not an error, you are modifying the value to account for something.\n2) Use Math.floor and actually get the value you\u0027re intending to get before passing in the value, this is essentially what you\u0027re doing here, but if something changes on the other side (say they stop using ceil/round up on the float parameter) your fix won\u0027t work as intended anymore.",
+      "range": {
+        "startLine": 108,
+        "startChar": 42,
+        "endLine": 108,
+        "endChar": 90
+      },
+      "revId": "19bbbecb9d41531b03ec8aa99fd109aa3b04d338",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_6c48d9cb",
+        "filename": "src/com/android/phone/common/util/ViewUtil.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 14463
+      },
+      "writtenOn": "2016-05-04T21:33:48Z",
+      "side": 1,
+      "message": "I changed the description to clarify the reason for this. The calculation here finds precisely the font size needed to fit the text. For some reason, there is no change in font size between n.00 to n.99 of text size values. Therefore, sometimes it fits and sometimes it does not. Reducing the text size by 1 ensures we won\u0027t this issue.",
+      "parentUuid": "5faad753_4005a6c1",
       "range": {
         "startLine": 108,
         "startChar": 42,
