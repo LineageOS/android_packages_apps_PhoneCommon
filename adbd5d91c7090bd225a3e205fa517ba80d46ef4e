@@ -16,6 +16,24 @@
       "revId": "adbd5d91c7090bd225a3e205fa517ba80d46ef4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_aac22c84",
+        "filename": "src/com/android/phone/common/util/ViewUtil.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 14463
+      },
+      "writtenOn": "2016-05-06T19:32:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_ef183682",
+      "revId": "adbd5d91c7090bd225a3e205fa517ba80d46ef4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
