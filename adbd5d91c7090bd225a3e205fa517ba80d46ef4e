@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_ef183682",
+        "filename": "src/com/android/phone/common/util/ViewUtil.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 10293
+      },
+      "writtenOn": "2016-05-06T18:57:02Z",
+      "side": 1,
+      "message": "let\u0027s update this comment too.  reducing the value by one doesn\u0027t guarantee that the text will fit.  this is more of a fudge factor to cover the scenario where down-scaling the pixel size doesn\u0027t produce an exact downscale of the width.",
+      "revId": "adbd5d91c7090bd225a3e205fa517ba80d46ef4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
