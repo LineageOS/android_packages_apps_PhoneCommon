@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_6fbf4fd0",
+        "filename": "src/com/android/phone/common/widget/ResizingILDContainerLayout.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-05-12T20:26:08Z",
+      "side": 1,
+      "message": "can you explain more?",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 62
+      },
+      "revId": "e2db314be6198835526a277981b0632c3d0892eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
