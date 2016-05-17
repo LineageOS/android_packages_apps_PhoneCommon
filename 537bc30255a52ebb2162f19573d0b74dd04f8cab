@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_ba0ed938",
+        "filename": "src-ambient/com/android/phone/common/incall/utils/CallMethodUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-05-17T22:15:25Z",
+      "side": 1,
+      "message": "can this be null? if so might want to check for null before getScheme()",
+      "range": {
+        "startLine": 132,
+        "startChar": 56,
+        "endLine": 132,
+        "endChar": 69
+      },
+      "revId": "537bc30255a52ebb2162f19573d0b74dd04f8cab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
