@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_3cb5c97e",
+        "filename": "src-ambient/com/android/phone/common/incall/DialerDataSubscription.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-06-13T19:00:42Z",
+      "side": 1,
+      "message": "what if status is Hidden?\n\nShould also have a default case",
+      "range": {
+        "startLine": 107,
+        "startChar": 36,
+        "endLine": 107,
+        "endChar": 43
+      },
+      "revId": "59574f3875747ebce0515bff9e0aa34c3725bc3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
