@@ -18,7 +18,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <string name="callFailed_low_battery">Acumulator descărcat</string>
+  <string name="callFailed_low_battery">Baterie slabă</string>
   <!-- Call method spinner - Default No SIM -->
+  <string name="call_method_spinner_item_no_sim">Niciun card SIM</string>
+  <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
+  <string name="call_method_spinner_item_emergency_call">Numai apeluri de urgenţă</string>
+  <string name="invalid_number_text">"%1$s nu a putut efectua acest apel. Este acest număr corect?"</string>
   <!-- InCall Sign in button -->
+  <string name="sign_in_credit_banner_text">AUTENTIFICAȚI-VĂ</string>
 </resources>
