@@ -33,11 +33,17 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">No hay circuitos disponibles</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
+  <string name="callFailed_network_out_of_order">Red fuera de servicio</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
+  <string name="callFailed_no_route_to_destination">Ninguna ruta al destino</string>
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
+  <string name="callFailed_channel_unacceptable">Canal inaceptable</string>
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
+  <string name="callFailed_operator_determined_barring">Operador determinado restringido</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
+  <string name="callFailed_normal">Compensación de llamada normal</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
   <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
@@ -45,6 +51,7 @@
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
+  <string name="callFailed_invalid_number_format">Formato de número no válido (número incompleto)</string>
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
   <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
   <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
