@@ -79,6 +79,7 @@
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
   <string name="callFailed_requested_facility_not_subscribed">İstenen tesise abone olunmadı</string>
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
+  <string name="callFailed_incoming_calls_barred_within_CUG">Gelen çağrılar CUG ile yasaklanmış</string>
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
   <string name="callFailed_bearer_capability_not_authorized">Yetkilendirilmemiş taşıyıcı özelliği</string>
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
@@ -90,6 +91,7 @@
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
   <string name="callFailed_requested_facility_not_implemented">İstenen tesis uygulanmadı</string>
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
+  <string name="callFailed_only_digital_information_bearer_available">Sadece kısıtlı taşıyıcı dijital bilgisi kullanılabilir</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
   <string name="callFailed_service_or_option_not_implemented">Servis veya seçenek uygulanmamış, belirtilmemiş</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
@@ -109,13 +111,17 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">İleti türü iletişim kuralı durumu ile uyumlu değil</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
+  <string name="callFailed_information_element_non_existent">Bilgi öğesi bulunamıyor veya uygulanamadı</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
+  <string name="callFailed_conditional_IE_error">Şartlı IE hatası</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
   <string name="callFailed_message_not_compatible_with_protocol_state">İleti iletişim kuralı durumu ile uyumlu değil</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
+  <string name="callFailed_recovery_on_timer_expired">Süre dolduğunda kurtar</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
   <string name="callFailed_protocol_error_unspecified">Belirsiz bir iletişim kuralı hatası</string>
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
+  <string name="callFailed_interworking_unspecified">Birlikte çalışılamıyor</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">Seçilmemiş kullanıcı temizleniyor</string>
 </resources>
