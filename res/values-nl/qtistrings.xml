@@ -53,6 +53,7 @@
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
   <string name="callFailed_number_changed">Nummer gewijzigd</string>
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
+  <string name="callFailed_preemption">Lijn gereserveerd</string>
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <string name="callFailed_destination_out_of_order">Bestemming buiten werking</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
@@ -76,7 +77,7 @@
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
   <string name="callFailed_requested_facility_not_subscribed">Niet geabonneerd op gevraagde functie</string>
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <string name="callFailed_incoming_calls_barred_within_CUG">Inkomende gesprekken geblokkeerd in de CUG</string>
+  <string name="callFailed_incoming_calls_barred_within_CUG">Inkomende oproepen geblokkeerd in de CUG</string>
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
@@ -88,7 +89,7 @@
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
   <string name="callFailed_service_or_option_not_implemented">Dienst of optie niet geïmplementeerd, niet gespecificeerd</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Ongeldige ID transactiewaarde</string>
+  <string name="callFailed_invalid_transaction_identifier">Ongeldige waarde transactie-ID</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
   <string name="callFailed_user_not_member_of_CUG">Gebruiker is geen lid van de CUG</string>
   <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
@@ -102,10 +103,10 @@
   <string name="callFailed_message_type_non_implemented">Berichttype bestaat niet of niet geïmplementeerd</string>
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Informatie-element niet bestaand of niet geïmplementeerd</string>
+  <string name="callFailed_information_element_non_existent">Informatie-element betaat niet of is niet geïmplementeerd</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Bericht niet compatibel met protocol status</string>
+  <string name="callFailed_message_not_compatible_with_protocol_state">Bericht niet compatibel met protocolstatus</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
   <string name="callFailed_protocol_error_unspecified">Protocolfout, niet gespecificeerd</string>
