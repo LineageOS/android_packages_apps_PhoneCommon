@@ -87,9 +87,12 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
+  <string name="callFailed_invalid_transaction_identifier">Nilai pengenal transaksi tidak valid</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
+  <string name="callFailed_user_not_member_of_CUG">Pengguna bukan anggota CUG</string>
   <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
   <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
+  <string name="callFailed_invalid_transit_NW_selection">Pemilihan jaringan transit tidak valid</string>
   <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
   <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
   <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
@@ -100,6 +103,7 @@
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
+  <string name="callFailed_protocol_error_unspecified">Kesalahan protokol, tidak ditentukan</string>
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
 </resources>
