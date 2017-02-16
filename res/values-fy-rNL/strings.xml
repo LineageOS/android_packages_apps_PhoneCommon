@@ -20,7 +20,6 @@
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!--  Do not translate. -->
-  <string name="dialpad_1_letters"></string>
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!--  Do not translate. -->
@@ -30,9 +29,7 @@
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!--  Do not translate. -->
-  <string name="dialpad_star_letters"></string>
   <!--  Do not translate. -->
-  <string name="dialpad_pound_letters"></string>
   <!-- String describing the back button in the dialpad. -->
   <!-- String describing the overflow menu button in the dialpad. -->
   <!-- String describing the Delete/Backspace ImageButton.

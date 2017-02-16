@@ -33,7 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">线路不可用</string>
+  <string name="callFailed_no_circuit_avail">无可用线路</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">网络出问题了</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -57,7 +57,7 @@
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <string name="callFailed_destination_out_of_order">目标出问题了</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">无效的号码格式 (号码不完整)</string>
+  <string name="callFailed_invalid_number_format">无效的号码格式（号码不完整）</string>
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
   <string name="callFailed_facility_rejected">设备被拒绝</string>
   <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
@@ -111,7 +111,7 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">消息类型与协议状态不兼容</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">信息元不存在或未实现</string>
+  <string name="callFailed_information_element_non_existent">信息元素不存在或未实现</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <string name="callFailed_conditional_IE_error">有条件的 IE 错误</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
