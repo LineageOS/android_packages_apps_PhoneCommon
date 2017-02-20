@@ -18,12 +18,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <string name="callFailed_low_battery">Низький заряд акумулятора</string>
   <!-- Call method spinner - Default No SIM -->
-  <string name="call_method_spinner_item_no_sim">Відсутня SIM-карта</string>
-  <string name="call_method_spinner_item_unknown_sim">SIM-картка <xliff:g id="SIM_SLOT_NUMBER">%s</xliff:g></string>
-  <string name="call_method_spinner_item_emergency_call">Тільки екстрені виклики</string>
-  <string name="invalid_number_text">"%1$s не вдалося здійснити цей виклик. Це правильний номер?"</string>
   <!-- InCall Sign in button -->
-  <string name="sign_in_credit_banner_text">УВІЙТИ</string>
 </resources>
