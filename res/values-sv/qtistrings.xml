@@ -42,6 +42,7 @@
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
   <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
+  <string name="callFailed_number_changed">Numret har ändrats</string>
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->

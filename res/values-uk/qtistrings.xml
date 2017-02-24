@@ -43,7 +43,7 @@
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
   <string name="callFailed_operator_determined_barring">Оператор встановив заборону</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Нормальне очищення дзвінка</string>
+  <string name="callFailed_normal">Звичайне очищення виклику</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
   <string name="callFailed_no_user_responding">Користувач не відповідає</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->

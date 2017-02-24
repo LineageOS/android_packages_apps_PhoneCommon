@@ -33,18 +33,27 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">No circuit availiable</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
+  <string name="callFailed_network_out_of_order">Network out of order</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
+  <string name="callFailed_no_route_to_destination">No route to destination</string>
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
+  <string name="callFailed_channel_unacceptable">Channel unacceptable</string>
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
+  <string name="callFailed_operator_determined_barring">Operator determined barring</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
+  <string name="callFailed_normal">Normal call clearing</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
+  <string name="callFailed_no_user_responding">No user responding</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
+  <string name="callFailed_no_answer_from_user">User alerting, no answer</string>
   <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
+  <string name="callFailed_invalid_number_format">Invalid number format (incomplete number)</string>
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
   <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
   <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
@@ -57,6 +66,7 @@
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
+  <string name="callFailed_bearer_capability_not_authorized">Bearer capability not authorised</string>
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->

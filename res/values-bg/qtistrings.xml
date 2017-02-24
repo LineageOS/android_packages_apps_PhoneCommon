@@ -43,7 +43,7 @@
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
   <string name="callFailed_operator_determined_barring">Операторът определя ограничения</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Нормално почистване на повикване</string>
+  <string name="callFailed_normal">Нормално клиринг повикване</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
   <string name="callFailed_no_user_responding">Няма потребителски отговор</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
