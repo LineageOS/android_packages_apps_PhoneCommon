@@ -71,9 +71,9 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Pääsytiedot hylätty</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">pyydetty piiri/kanava ei käytettävissä</string>
+  <string name="callFailed_requested_circuit_or_channel_not_available">Pyydetty piiri/kanava ei käytettävissä</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Resursseja ei ole käytettävissä, määrittelemätön</string>
+  <string name="callFailed_resources_unavailable_or_unspecified">Resursseja ei ole käytettävissä tai määritetty</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Quality of service ei käytettävissä</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -85,7 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Ylläpitäjän ominaisuuksia ei käytettävissä</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Palvelu tai asetus ei käytettävissä, määrittelemätön</string>
+  <string name="callFailed_service_option_not_available">Palvelu tai asetus ei käytettävissä tai määritetty</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Ylläpitäjän palvelua ei toteutettu</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -93,7 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Vain rajoitettu digitaalisen tiedot ylläpitäjä on saatavilla</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Palvelu tai asetus ei määritetty, määrittelemätön</string>
+  <string name="callFailed_service_or_option_not_implemented">Palvelu tai asetus ei kehitetty tai määritetty</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Virheellinen tapahtuman tunnistearvo</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->

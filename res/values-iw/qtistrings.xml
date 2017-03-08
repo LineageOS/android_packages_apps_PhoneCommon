@@ -85,7 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Bearer capability אינו זמין כעת</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">שירות או אפשרות לא זמינה, ללא פירוט</string>
+  <string name="callFailed_service_option_not_available">אפשרות או שירות לא זמין או ללא פירוט</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Bearer capability אינו מיושם</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -93,7 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">רק מידע דיגיטלי מוגבל ל־Bearer capability זמין</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">שירות או אפשרות שאינו תומך בבקשה זו, ללא פירוט</string>
+  <string name="callFailed_service_or_option_not_implemented">אפשרות או שירות שאינו תומך בבקשה זו או ללא פירוט</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">ערך מזהה העברה אינו תקין</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->

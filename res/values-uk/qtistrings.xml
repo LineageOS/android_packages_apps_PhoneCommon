@@ -33,7 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Відсутні доступні схеми</string>
+  <string name="callFailed_no_circuit_avail">Немає доступних схем</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Мережа виведена з ладу</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -71,9 +71,9 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">В доступі до інформації відмовлено</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">потрібна мережа/канал не доступні</string>
+  <string name="callFailed_requested_circuit_or_channel_not_available">Запитана схема/канал недоступна</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Ресурси не доступні, не визначені</string>
+  <string name="callFailed_resources_unavailable_or_unspecified">Ресурси недоступні або невизначені</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">QOS недоступний</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -85,7 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Можливості оператора зараз недоступні</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Послуга або можливість недоступні, невизначені</string>
+  <string name="callFailed_service_option_not_available">Сервіс чи опція недоступна або невизначена</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Послуги оператора не реалізовані</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -93,7 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Доступна тільки обмежена інформація про пропускну здатність оператора</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Послуга або можливість не реалізовані, невизначені</string>
+  <string name="callFailed_service_or_option_not_implemented">Сервіс чи опція нереалізована або невизначена</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Неправильне значення ідентифікатора транзакції</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
@@ -111,7 +111,7 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Тип повідомлення несумісний зі станом протоколу</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Інформаційний елемент не існує або не реалізований</string>
+  <string name="callFailed_information_element_non_existent">Інформаційний елемент не існує або нереалізований</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <string name="callFailed_conditional_IE_error">Умовна помилка IE</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->

@@ -33,7 +33,6 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Адсутнічае сувязь</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Сеціва не працуе</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->

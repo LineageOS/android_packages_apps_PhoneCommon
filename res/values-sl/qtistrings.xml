@@ -73,7 +73,7 @@
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
   <string name="callFailed_requested_circuit_or_channel_not_available">Zahtevana vezava/kanal ni na voljo</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Viri niso na voljo, nedoločeno</string>
+  <string name="callFailed_resources_unavailable_or_unspecified">Viri niso na voljo ali so nedoločeni</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Kakovost storitve ni na voljo</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -85,7 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Zmogljivost nosilca trenutno ni na voljo</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Storitev ali možnost ni na voljo, nedoločeno</string>
+  <string name="callFailed_service_option_not_available">Storitev ali možnost ni na voljo ali je nedoločena</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Storitev nosilca ni izvedena</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -93,7 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Na voljo je samo omejena zmogljivost nosilca digitalnih podatkov</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Storitev ali možnost ni izvedena, nedoločeno</string>
+  <string name="callFailed_service_or_option_not_implemented">Storitev ali možnost ni izvedena ali je nedoločena</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Neveljavna vrednost določilnika prenosa</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->

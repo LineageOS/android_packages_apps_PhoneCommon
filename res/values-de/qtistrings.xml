@@ -71,7 +71,7 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Zugangsinformationen verworfen</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">angeforderter Kanal nicht verfügbar</string>
+  <string name="callFailed_requested_circuit_or_channel_not_available">Angeforderter Kanal nicht verfügbar</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
   <string name="callFailed_resources_unavailable_or_unspecified">Ressourcen nicht verfügbar oder nicht festgelegt</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
@@ -85,7 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Trägerfunktion derzeit nicht verfügbar</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Dienst oder Option nicht verfügbar / spezifiziert</string>
+  <string name="callFailed_service_option_not_available">Dienst oder Option nicht verfügbar oder spezifiziert</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Trägerdienst nicht implementiert</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -93,7 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Nur eingeschränkte digitale Informationsträger stehen zur Verfügung</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Dienst oder Option nicht implementiert / spezifiziert</string>
+  <string name="callFailed_service_or_option_not_implemented">Dienst oder Option nicht implementiert oder spezifiziert</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Ungültiger Wert für Transaktions-ID</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
