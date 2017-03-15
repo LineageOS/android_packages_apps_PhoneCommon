@@ -39,7 +39,7 @@
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
   <string name="callFailed_no_route_to_destination">אין ניתוב ליעד</string>
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">הערוץ בילתי קביל</string>
+  <string name="callFailed_channel_unacceptable">הערוץ בלתי קביל</string>
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
   <string name="callFailed_operator_determined_barring">חסימת מפעיל</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
@@ -73,7 +73,7 @@
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
   <string name="callFailed_requested_circuit_or_channel_not_available">המעגל או הערוץ המבוקש אינו זמין</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">משאבים לא זמינים, ללא פירוט</string>
+  <string name="callFailed_resources_unavailable_or_unspecified">משאבים לא מצוינים או לא זמינים</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">איכות השירות (Qos) אינו זמין</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -113,9 +113,9 @@
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
   <string name="callFailed_information_element_non_existent">רכיב מידע אינו קיים או לא מיושם</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Conditional IE error</string>
+  <string name="callFailed_conditional_IE_error">שגיאת IE מותנה</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">סוג ההודעה לא תואם עם מצב הפרוטוקול</string>
+  <string name="callFailed_message_not_compatible_with_protocol_state">סוג ההודעה לא תואם את מצב הפרוטוקול</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
   <string name="callFailed_recovery_on_timer_expired">שוחזר עם תפוגת הטימר</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->

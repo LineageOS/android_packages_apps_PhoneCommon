@@ -33,6 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Sirkuit tidak tersedia</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Diluar jaringan</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -80,6 +81,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Kemampuan pembawa tidak tersedia saat ini</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+  <string name="callFailed_service_option_not_available">Layanan atau pilihan tidak tersedia atau tidak ditentukan</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Layanan pembawa tidak diimplementasikan</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -87,6 +89,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Hanya kemampuan pembawa informasi digital terbatas yang tersedia</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
+  <string name="callFailed_service_or_option_not_implemented">Layanan atau pilihan tidak diimplementasikan atau tidak ditentukan</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Nilai pengenal transaksi tidak valid</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->

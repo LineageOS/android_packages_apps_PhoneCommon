@@ -123,5 +123,5 @@
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
   <string name="callFailed_interworking_unspecified">互聯互通，未指定</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <string name="callFailed_non_selected_user_clearing">未選取使用者結算</string>
+  <string name="callFailed_non_selected_user_clearing">未選取使用者清除</string>
 </resources>

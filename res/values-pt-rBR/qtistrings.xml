@@ -33,8 +33,9 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Nenhum circuito disponível</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Rede fora de serviço</string>
+  <string name="callFailed_network_out_of_order">Rede fora de área</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
   <string name="callFailed_no_route_to_destination">Nenhuma rota para o destino</string>
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
@@ -70,7 +71,9 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Acessar informações descartadas</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Circuito/canal solicitado não está disponível</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Recursos indisponíveis ou não especificados</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Qualidade do serviço indisponível</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -82,6 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Capacidade do portador não está atualmente disponível</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+  <string name="callFailed_service_option_not_available">Serviço ou opção não disponível ou não especificada</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Serviço de transmissão não implementado</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -89,6 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Apenas informações digitais restritas ao portador estão disponíveis</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
+  <string name="callFailed_service_or_option_not_implemented">Serviço ou opção não implementada ou não especificada</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Valor do identificador de transação inválido</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
@@ -106,6 +111,7 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Tipo de mensagem não é compatível com o estado do protocolo</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
+  <string name="callFailed_information_element_non_existent">Elemento de informação inexistente ou não implementado</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <string name="callFailed_conditional_IE_error">Erro de IE condicional</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->

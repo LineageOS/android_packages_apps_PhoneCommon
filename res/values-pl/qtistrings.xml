@@ -33,6 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Brak dostępnego obwodu</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Sieć niedostępna</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -48,6 +49,7 @@
   <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
   <string name="callFailed_call_rejected">Połączenie odrzucone</string>
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
+  <string name="callFailed_number_changed">Zmieniono numer</string>
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
@@ -58,17 +60,21 @@
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Żądany obwód/kanał niedostępny</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Zasoby niedostępne lub nieokreślone</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+  <string name="callFailed_service_option_not_available">Usługa lub opcja jest niedostępna, bądź nieokreślona</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
+  <string name="callFailed_service_or_option_not_implemented">Usługa lub opcja niezaimplementowana, bądź nieokreślona</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
   <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
