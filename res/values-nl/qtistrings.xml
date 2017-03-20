@@ -33,6 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Netwerk niet beschikbaar</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Netwerk buiten dienst</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -68,7 +69,9 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Toegangsinformatie verwijderd</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Gevraagd circuit/kanaal niet beschikbaar</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Bronnen niet beschikbaar of niet gespecificeerd</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Quality of service niet beschikbaar</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -78,12 +81,14 @@
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+  <string name="callFailed_service_option_not_available">Dienst of optie niet beschikbaar of niet gespecificeerd</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Netwerkdienst niet geïmplementeerd</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
   <string name="callFailed_requested_facility_not_implemented">Gevraagde functie niet geïmplementeerd</string>
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
+  <string name="callFailed_service_or_option_not_implemented">Dienst of optie niet geïmplementeerd of niet gespecificeerd</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Ongeldige waarde transactie-ID</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
@@ -100,6 +105,7 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Berichttype niet compatibel met protocolstatus</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
+  <string name="callFailed_information_element_non_existent">Informatie-element betaat niet of is niet geïmplementeerd</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
   <string name="callFailed_message_not_compatible_with_protocol_state">Bericht niet compatibel met protocolstatus</string>
