@@ -105,7 +105,9 @@
   <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
   <string name="callFailed_semantically_incorrect_message">Semantically incorrect message</string>
   <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
+  <string name="callFailed_invalid_mandatory_information">Invalid mandatory information</string>
   <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
+  <string name="callFailed_message_type_non_implemented">Message type non-existent or not implemented</string>
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Message type not compatible with protocol state</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
@@ -113,6 +115,7 @@
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <string name="callFailed_conditional_IE_error">Conditional IE error</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
+  <string name="callFailed_message_not_compatible_with_protocol_state">Message not compatible with protocol state</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
   <string name="callFailed_recovery_on_timer_expired">Recovery on timer expiry</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
@@ -120,4 +123,5 @@
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
   <string name="callFailed_interworking_unspecified">Interworking, unspecified</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
+  <string name="callFailed_non_selected_user_clearing">Non selected user clearing</string>
 </resources>

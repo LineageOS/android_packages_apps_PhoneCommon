@@ -37,7 +37,7 @@
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">網路出問題了</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">沒有到目的地的路由</string>
+  <string name="callFailed_no_route_to_destination">無法路由到目的地</string>
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
   <string name="callFailed_channel_unacceptable">頻道不接受</string>
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->

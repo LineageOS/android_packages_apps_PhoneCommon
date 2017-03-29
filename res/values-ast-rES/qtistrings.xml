@@ -33,6 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Circuitu non disponible</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Rede fuera de serviciu</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -40,14 +41,19 @@
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
   <string name="callFailed_channel_unacceptable">Canal inaceutable</string>
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
+  <string name="callFailed_operator_determined_barring">Bloquéu determináu pol operador</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
+  <string name="callFailed_normal">Desconexón normal de llamada</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
   <string name="callFailed_no_user_responding">Ensin rempuesta</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
+  <string name="callFailed_no_answer_from_user">Alerta d\'usuariu, ensin rempuesta</string>
   <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
+  <string name="callFailed_call_rejected">Llamada refugada</string>
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
   <string name="callFailed_number_changed">Camudó\'l númberu</string>
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
+  <string name="callFailed_preemption">Drechu preferente de merca</string>
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <string name="callFailed_destination_out_of_order">Destín fuera de serviciu</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
@@ -55,6 +61,7 @@
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
   <string name="callFailed_facility_rejected">Facilidá refugada</string>
   <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
+  <string name="callFailed_resp_to_status_enquiry">Rempuesta a STATUS ENQUIRY</string>
   <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
   <string name="callFailed_normal_unspecified">Normal, ensin especificar</string>
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
@@ -64,18 +71,25 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Escartóse l\'accesu a la información</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Nun ta disponible\'l circuitu/canal solicitáu</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Recursos non disponibles o ensin especificar</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
+  <string name="callFailed_QOS_unavailable">Calidá non disponible del serviciu</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
+  <string name="callFailed_requested_facility_not_subscribed">Facilidá solicitada non soscrita</string>
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+  <string name="callFailed_service_option_not_available">Serviciu u opción non disponible o ensin especificar</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
+  <string name="callFailed_requested_facility_not_implemented">Nun s\'implementó la facilidá solicitada</string>
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
+  <string name="callFailed_invalid_transaction_identifier">Valor non válidu d\'identificador de transaición</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
   <string name="callFailed_user_not_member_of_CUG">L\'usuariu nun ye miembru de CUG</string>
   <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
