@@ -33,6 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Без доступног кола</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Мрежа је у квару</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -52,6 +53,7 @@
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
   <string name="callFailed_number_changed">Број је промењен</string>
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
+  <string name="callFailed_preemption">Pre-emption</string>
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <string name="callFailed_destination_out_of_order">Одредиште у квару</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
@@ -69,7 +71,9 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Приступ информацијама одбачен</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Тражени круг/канал није доступан</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Ресурси недоступни или неодређени</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Квалитет сервиса недоступан</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->

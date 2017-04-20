@@ -67,6 +67,7 @@
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
   <string name="callFailed_tempopary_failure">Tijdelijke storing</string>
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
+  <string name="callFailed_switching_equipment_congestion">Congestie op de lijn</string>
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Toegangsinformatie verwijderd</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
@@ -80,7 +81,9 @@
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
   <string name="callFailed_incoming_calls_barred_within_CUG">Inkomende oproepen geblokkeerd in de CUG</string>
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
+  <string name="callFailed_bearer_capability_not_authorized">Functionaliteit niet toegestaan</string>
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
+  <string name="callFailed_bearer_capability_unavailable">Functionaliteit niet beschikbaar</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
   <string name="callFailed_service_option_not_available">Dienst of optie niet beschikbaar of niet gespecificeerd</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
@@ -88,6 +91,7 @@
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
   <string name="callFailed_requested_facility_not_implemented">Gevraagde functie niet geïmplementeerd</string>
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
+  <string name="callFailed_only_digital_information_bearer_available">Functionaliteit is maar deels beschikbaar</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
   <string name="callFailed_service_or_option_not_implemented">Dienst of optie niet geïmplementeerd of niet gespecificeerd</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->

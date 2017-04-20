@@ -69,6 +69,7 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Akses informasi dibuang</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Permintaan sirkuit/saluran tidak tersedia</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Kualitas layanan tidak tersedia</string>
@@ -107,6 +108,7 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Jenis pesan tidak sesuai dengan status protokol</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
+  <string name="callFailed_information_element_non_existent">Elemen informasi tidak ada atau tidak diimplementasikan</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
   <string name="callFailed_message_not_compatible_with_protocol_state">Pesan tidak sesuai dengan status protokol</string>

@@ -51,6 +51,7 @@
   <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
   <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
+  <string name="callFailed_tempopary_failure">Temporärt fel</string>
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
@@ -70,6 +71,7 @@
   <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
   <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
   <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
+  <string name="callFailed_semantically_incorrect_message">Semantiskt fel meddelande</string>
   <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
   <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
