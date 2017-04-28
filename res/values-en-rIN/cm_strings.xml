@@ -20,5 +20,10 @@
   <!-- In-call screen: call failure reason (call ended due to low battery) -->
   <string name="callFailed_low_battery">Low battery</string>
   <!-- Call method spinner - Default No SIM -->
+  <string name="call_method_spinner_item_no_sim">No SIM card</string>
+  <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
+  <string name="call_method_spinner_item_emergency_call">Emergency calls only</string>
+  <string name="invalid_number_text">"%1$s could not make this call. Is the number correct?"</string>
   <!-- InCall Sign in button -->
+  <string name="sign_in_credit_banner_text">SIGN IN</string>
 </resources>
