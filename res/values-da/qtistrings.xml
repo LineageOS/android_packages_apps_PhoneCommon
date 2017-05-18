@@ -33,6 +33,7 @@
 <resources>
   <!-- Supplementary for Clear Code -->
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+  <string name="callFailed_no_circuit_avail">Intet kredsløb tilgængeligt</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
   <string name="callFailed_network_out_of_order">Netværk ude af drift</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
@@ -42,6 +43,7 @@
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
   <string name="callFailed_operator_determined_barring">Spærring angivet af operatør</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
+  <string name="callFailed_normal">Normal opkaldsclearing</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
   <string name="callFailed_no_user_responding">Ingen bruger reagerer</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
@@ -69,7 +71,9 @@
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Adgangsinformation kasseret</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+  <string name="callFailed_requested_circuit_or_channel_not_available">Anmodet kredsløb/kanal ikke tilgængelig</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Ressourcer utilgængelige eller uspecificerede</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Kvaliteten af tjenesten er ikke tilgængelig</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
@@ -81,6 +85,7 @@
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
   <string name="callFailed_bearer_capability_unavailable">Bæreregenskab er ikke i øjeblikket tilgængelig</string>
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+  <string name="callFailed_service_option_not_available">Tjeneste eller indstilling ikke tilgængelig eller uspecificeret</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Bærertjeneste ikke implementeret</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
@@ -88,6 +93,7 @@
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Kun begrænsede digitale informationsbærerfaciliteter er tilgængelige</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
+  <string name="callFailed_service_or_option_not_implemented">Tjeneste eller indstilling ikke implementeret eller uspecificeret</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
   <string name="callFailed_invalid_transaction_identifier">Ugyldig transaktions-id-værdi</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
@@ -105,6 +111,7 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Beskedtypen er ikke kompatibel med protokoltilstand</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
+  <string name="callFailed_information_element_non_existent">Informationselement ikkeeksisterende eller ikke gennemført</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <string name="callFailed_conditional_IE_error">Betinget IE-fejl</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
