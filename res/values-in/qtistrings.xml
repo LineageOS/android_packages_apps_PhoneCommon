@@ -71,6 +71,7 @@
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
   <string name="callFailed_requested_circuit_or_channel_not_available">Permintaan sirkuit/saluran tidak tersedia</string>
   <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+  <string name="callFailed_resources_unavailable_or_unspecified">Resources tidak tersedia atau tidak ditentukan</string>
   <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
   <string name="callFailed_QOS_unavailable">Kualitas layanan tidak tersedia</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->

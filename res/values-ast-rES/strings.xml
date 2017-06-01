@@ -42,6 +42,7 @@
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!-- String describing the back button in the dialpad. -->
+  <string name="description_dialpad_back">Navigate back</string>
   <!-- String describing the overflow menu button in the dialpad. -->
   <string name="description_dialpad_overflow">Más opciones</string>
   <!-- String describing the Delete/Backspace ImageButton.
