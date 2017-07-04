@@ -123,4 +123,5 @@
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
   <string name="callFailed_interworking_unspecified">Interfonctionnement, non spécifié</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
+  <string name="callFailed_non_selected_user_clearing">Suppression d\'un utilisateur non sélectionné</string>
 </resources>
