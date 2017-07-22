@@ -43,7 +43,7 @@
   <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
   <string name="callFailed_operator_determined_barring">Operatör engelleme belirlendi</string>
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Normal çağrı temizleme</string>
+  <string name="callFailed_normal">Normal arama temizleme</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
   <string name="callFailed_no_user_responding">Yanıt yok</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
@@ -79,7 +79,7 @@
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
   <string name="callFailed_requested_facility_not_subscribed">İstenen tesise abone olunmadı</string>
   <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <string name="callFailed_incoming_calls_barred_within_CUG">Gelen çağrılar CUG ile yasaklanmış</string>
+  <string name="callFailed_incoming_calls_barred_within_CUG">Gelen aramalar CUG ile yasaklanmış</string>
   <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
   <string name="callFailed_bearer_capability_not_authorized">Yetkilendirilmemiş taşıyıcı özelliği</string>
   <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
@@ -87,7 +87,7 @@
   <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
   <string name="callFailed_service_option_not_available">Servis veya seçenek kullanılabilir değil veya belirtilmemiş</string>
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <string name="callFailed_bearer_service_not_implemented">Taşıyıcı hizmet uygulanmadı</string>
+  <string name="callFailed_bearer_service_not_implemented">Taşıyıcı hizmeti uygulanmadı</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
   <string name="callFailed_requested_facility_not_implemented">İstenen tesis uygulanmadı</string>
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->

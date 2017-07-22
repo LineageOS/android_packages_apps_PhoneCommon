@@ -55,7 +55,6 @@
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <string name="callFailed_preemption">Wywłaszczenie</string>
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Cel połączenia jest nieczynny</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
   <string name="callFailed_invalid_number_format">Nieprawidłowy format numeru (numer niekompletny)</string>
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
@@ -67,6 +66,7 @@
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
   <string name="callFailed_tempopary_failure">Tymczasowa awaria</string>
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
+  <string name="callFailed_switching_equipment_congestion">Przeciążenie urządzenia przełączającego</string>
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Informacja dostępowa odrzucona</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
