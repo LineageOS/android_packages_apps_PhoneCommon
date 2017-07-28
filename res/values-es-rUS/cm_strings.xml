@@ -22,7 +22,7 @@
   <!-- Call method spinner - Default No SIM -->
   <string name="call_method_spinner_item_no_sim">Sin tarjeta SIM</string>
   <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d </xliff:g></string>
-  <string name="call_method_spinner_item_emergency_call">Solo llamadas de emergencia</string>
+  <string name="call_method_spinner_item_emergency_call">Sólo llamadas de emergencia</string>
   <string name="invalid_number_text">"%1$s no puede hacer esta llamada. ¿Es el número correcto?"</string>
   <!-- InCall Sign in button -->
   <string name="sign_in_credit_banner_text">Iniciar sesión</string>
