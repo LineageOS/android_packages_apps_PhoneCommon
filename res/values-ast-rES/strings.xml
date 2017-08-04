@@ -69,6 +69,7 @@
   <!-- In-call screen: call failure reason (radio is off) -->
   <!-- In-call screen: call failure reason (SIM error) -->
   <!-- In-call screen: call failure reason (out of service) -->
+  <string name="callFailed_outOfService">Rede móvil non disponible</string>
   <!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
   <!-- In-call screen: call failure reason (call modified to USSD request) -->
   <!-- In-call screen: call failure reason (call modified to SS request) -->
