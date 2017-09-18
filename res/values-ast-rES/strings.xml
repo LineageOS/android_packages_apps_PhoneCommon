@@ -17,34 +17,22 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!--  Do not translate. -->
-  <string name="dialpad_star_number">*</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_pound_number">#</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_0_letters">+</string>
   <!--  Do not translate. -->
   <!--  Do not translate. -->
-  <string name="dialpad_2_letters">ABC</string>
   <!--  Do not translate. -->
-  <string name="dialpad_3_letters">DEF</string>
   <!--  Do not translate. -->
-  <string name="dialpad_4_letters">GHI</string>
   <!--  Do not translate. -->
-  <string name="dialpad_5_letters">JKL</string>
   <!--  Do not translate. -->
-  <string name="dialpad_6_letters">MNO</string>
   <!--  Do not translate. -->
-  <string name="dialpad_7_letters">PQRS</string>
   <!--  Do not translate. -->
-  <string name="dialpad_8_letters">TUV</string>
   <!--  Do not translate. -->
-  <string name="dialpad_9_letters">WXYZ</string>
+  <!--  Do not translate. -->
+  <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!-- String describing the back button in the dialpad. -->
   <string name="description_dialpad_back">Navigate back</string>
   <!-- String describing the overflow menu button in the dialpad. -->
-  <string name="description_dialpad_overflow">Más opciones</string>
   <!-- String describing the Delete/Backspace ImageButton.
          Used by AccessibilityService to announce the purpose of the button.
     -->
@@ -76,7 +64,9 @@
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
   <!-- In-call screen: call failure reason (call denied because call barring is on) -->
   <!-- In-call screen: call failure reason (call denied because domain specific access control is on) -->
+  <string name="callFailed_dsac_restricted">Llamaes torgaes pol control d\'accesu.</string>
   <!-- In-call screen: call failure reason (Emergency call denied because domain specific access control is on)-->
+  <string name="callFailed_dsac_restricted_emergency">Llamaes d\'emerxencia torgaes pol control d\'accesu.</string>
   <!-- In-call screen: call failure reason (Normal call denied because domain specific access control is on)-->
   <!-- In-call screen: call failure reason (Dialed number doesn't exist) -->
   <!-- In-call screen: message displayed in an error dialog -->
@@ -88,6 +78,7 @@
   <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
   <string name="ringtone_unknown">Timbre desconocíu</string>
   <!-- In-call screen: call ended because the user has reached the maximum number of calls on their current devices and other devices. -->
+  <string name="callFailed_maximum_reached">Toles llinies disponibles tán n\'usu. Pa facer llamaes, fina una d\'elles nesti preséu u otros preseos de to.</string>
   <!-- In-call screen: call ended because the user disabled data on their device -->
   <string name="callFailed_data_disabled">Finó la llamada porque deshabilitáronse los datos móviles.</string>
   <!-- In-call screen: call ended because the cellular data limit has been reached (suitable for alert dialog) -->
