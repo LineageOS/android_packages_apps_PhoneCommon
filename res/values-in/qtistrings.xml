@@ -112,6 +112,7 @@
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
   <string name="callFailed_information_element_non_existent">Elemen informasi tidak ada atau tidak diimplementasikan</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
+  <string name="callFailed_conditional_IE_error">Kesalahan IE bersyarat</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
   <string name="callFailed_message_not_compatible_with_protocol_state">Pesan tidak sesuai dengan status protokol</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
@@ -120,6 +121,7 @@
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
   <string name="callFailed_interworking_unspecified">Interoperabilitas, tidak ditentukan</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
+  <string name="callFailed_non_selected_user_clearing">Pembersihan pengguna yang tidak dipilih</string>
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!--  Do not translate. -->
