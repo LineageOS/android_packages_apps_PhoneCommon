@@ -31,6 +31,7 @@
   <!--  Do not translate. -->
   <!--  Do not translate. -->
   <!-- String describing the back button in the dialpad. -->
+  <string name="description_dialpad_back">Navigate back</string>
   <!-- String describing the overflow menu button in the dialpad. -->
   <!-- String describing the Delete/Backspace ImageButton.
          Used by AccessibilityService to announce the purpose of the button.
@@ -67,11 +68,18 @@
   <!-- In-call screen: call failure reason (Dialed number doesn't exist) -->
   <!-- In-call screen: message displayed in an error dialog -->
   <!-- In-call screen: call failed because you cannot make video calls when TTY is enabled. -->
+  <string name="callFailed_video_call_tty_enabled">Nid yw\'n bosib gwneud galwadau fideo tra bo TTY wed\'i alluogi.</string>
   <!-- In-call screen: call ended because it was transferred to another device. -->
+  <string name="callEnded_pulled">Trosglwyddwyd yr alwad i ddyfais arall.</string>
   <!-- Choice in the ringtone picker.  If chosen, there will be silence instead of a ringtone played. -->
   <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
+  <string name="to_hint">1111:to;sip:post@enghraifft.cymru:bcc;sip:bill@example.wales:cc;</string>
   <!-- In-call screen: call ended because the user has reached the maximum number of calls on their current devices and other devices. -->
+  <string name="callFailed_maximum_reached">Mae pob llinell yn brysur. I wneud galwad, datgysyllta un o\'r galwadau ar y ddyfais hon, neu ar un o dy ddyfeisiau eraill.</string>
   <!-- In-call screen: call ended because the user disabled data on their device -->
+  <string name="callFailed_data_disabled">Daeth yr alwad i ben gan fod data symudol wedi ei analluogi.</string>
   <!-- In-call screen: call ended because the cellular data limit has been reached (suitable for alert dialog) -->
+  <string name="callFailed_data_limit_reached_description">Daeth yr alwad i ben gan fod terfyn data symudol wedi ei gyrraedd.</string>
   <!-- In-call screen: call ended because the cellular data limit has been reached (intended for label in in-call screen) -->
+  <string name="callFailed_data_limit_reached">Terfyn data wedi ei gyrraedd. Diwedd yr alwad.</string>
 </resources>

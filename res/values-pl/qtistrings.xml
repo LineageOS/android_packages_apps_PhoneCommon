@@ -55,6 +55,7 @@
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <string name="callFailed_preemption">Wywłaszczenie</string>
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
+  <string name="callFailed_destination_out_of_order">Cel połączenia jest nieczynny</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
   <string name="callFailed_invalid_number_format">Nieprawidłowy format numeru (numer niekompletny)</string>
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
