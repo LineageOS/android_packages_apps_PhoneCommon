@@ -33,6 +33,8 @@ import android.text.TextUtils;
 
 import com.android.phone.common.R;
 
+import cyanogenmod.providers.CMSettings;
+
 import java.lang.CharSequence;
 import java.lang.String;
 import java.util.Locale;
@@ -104,6 +106,19 @@ public class SettingsUtil {
 
     public static Locale getT9SearchInputLocale(Context context) {
         // Use system locale by default
-        return context.getResources().getConfiguration().locale;
+        Locale locale = context.getResources().getConfiguration().locale;
+
+        // Override with t9 search input locale from settings if provided
+        String overrideLocaleString = CMSettings.System.getString(context.getContentResolver(),
+                CMSettings.System.T9_SEARCH_INPUT_LOCALE);
+        if (overrideLocaleString != null && !overrideLocaleString.isEmpty()) {
+            String[] tokens = overrideLocaleString.split("_");
+            String lang = tokens.length > 0 ? tokens[0] : "";
+            String country = tokens.length > 1 ? tokens[1] : "";
+            String variant = tokens.length > 2 ? tokens[2] : "";
+            locale = new Locale(lang, country, variant);
+        }
+
+        return locale;
     }
 }

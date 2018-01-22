@@ -19,6 +19,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_RESOURCE_FILES := $(addprefix $(LOCAL_PATH)/, res)
+LOCAL_STATIC_JAVA_LIBRARIES := org.cyanogenmod.platform.sdk
 
 LOCAL_PACKAGE_NAME := com.android.phone.common
 
