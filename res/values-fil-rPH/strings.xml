@@ -32,79 +32,46 @@
   <!--  Do not translate. -->
   <!-- String describing the back button in the dialpad. -->
   <!-- String describing the overflow menu button in the dialpad. -->
-  <string name="description_dialpad_overflow">Rhagor o ddewisiadau</string>
   <!-- String describing the Delete/Backspace ImageButton.
          Used by AccessibilityService to announce the purpose of the button.
     -->
-  <string name="description_delete_button">bysell backspace</string>
   <!--  String describing the button used to add a plus (+) symbol to the dialpad -->
-  <string name="description_image_button_plus">plws</string>
   <!-- String describing the Voicemail ImageButton.
           Used by AccessibilityService to announce the purpose of the button.
      -->
-  <string name="description_voicemail_button">llaisbost</string>
   <!--  The string used to describe a notification if it is the default one in the system. For
           example, if the user selects the default notification, it will appear as something like
           Default sound(Capella) in the notification summary.
           [CHAR LIMIT=40] -->
-  <string name="default_notification_description">Sain rhagosodedig (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
   <!-- In-call screen: call failure reason (busy) -->
-  <string name="callFailed_userBusy">Llinell yn brysur</string>
   <!-- In-call screen: call failure reason (network congestion) -->
-  <string name="callFailed_congestion">Rhwydwaith yn brysur</string>
   <!-- In-call screen: call failure reason (client timed out) -->
-  <string name="callFailed_timedOut">Dim ymateb, wedi dod i ben</string>
   <!-- In-call screen: call failure reason (server unreachable) -->
-  <string name="callFailed_server_unreachable">Methu cael gafael â\'r gweinydd</string>
   <!-- In-call screen: call failure reason (peer unreachable) -->
-  <string name="callFailed_number_unreachable">Methu cael gafael â\'r rhif</string>
   <!-- In-call screen: call failure reason (incorrect username or password) -->
-  <string name="callFailed_invalid_credentials">Enw defnyddiwr neu gyfrinair anghywir</string>
   <!-- In-call screen: call failure reason (calling from out of network is not allowed) -->
-  <string name="callFailed_out_of_network">Galwad allan-o-rwydwaith</string>
   <!-- In-call screen: call failure reason (server error) -->
-  <string name="callFailed_server_error">Gwall gweinydd. Ceisia eto\'n hwyrach.</string>
   <!-- In-call screen: call failure reason (no signal) -->
-  <string name="callFailed_noSignal">Dim signal</string>
   <!-- In-call screen: call failure reason (GSM ACM limit exceeded) -->
   <!-- In-call screen: call failure reason (radio is off) -->
-  <string name="callFailed_powerOff">Radio i ffwrdd</string>
   <!-- In-call screen: call failure reason (SIM error) -->
-  <string name="callFailed_simError">Dim SIM neu wall SIM</string>
   <!-- In-call screen: call failure reason (out of service) -->
-  <string name="callFailed_outOfService">Rhwydwaith symudol dim ar gael.</string>
   <!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
-  <string name="callFailed_fdn_only">Mae galwadau allan wedi eu cyfyngu gan FDN.</string>
   <!-- In-call screen: call failure reason (call modified to USSD request) -->
-  <string name="callFailed_dialToUssd">Newidiwyd cais DIAL i gas USSD.</string>
   <!-- In-call screen: call failure reason (call modified to SS request) -->
-  <string name="callFailed_dialToSs">Newidiwyd cais DIAL i gais SS.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialToDial">Newidiwyd cais DIAL i gais DIAL gyda rhif gwahanol.</string>
   <!-- In-call screen: call failure reason (call denied because call barring is on) -->
-  <string name="callFailed_cb_enabled">Nid yw\'n bosib gwneud galwadau tra bod cyfyngu galwadau ar waith.</string>
   <!-- In-call screen: call failure reason (call denied because domain specific access control is on) -->
   <!-- In-call screen: call failure reason (Emergency call denied because domain specific access control is on)-->
   <!-- In-call screen: call failure reason (Normal call denied because domain specific access control is on)-->
   <!-- In-call screen: call failure reason (Dialed number doesn't exist) -->
-  <string name="callFailed_unobtainable_number">Rhif annilys</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_missing_voicemail_number">Dim yn gwybod rhif llaisbost</string>
   <!-- In-call screen: call failed because you cannot make video calls when TTY is enabled. -->
-  <string name="callFailed_video_call_tty_enabled">Nid yw\'n bosib gwneud galwadau fideo tra bo TTY wed\'i alluogi.</string>
   <!-- In-call screen: call ended because it was transferred to another device. -->
-  <string name="callEnded_pulled">Trosglwyddwyd yr alwad i ddyfais arall.</string>
   <!-- Choice in the ringtone picker.  If chosen, there will be silence instead of a ringtone played. -->
-  <string name="ringtone_silent">Dim</string>
   <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
-  <string name="ringtone_unknown">Tôn canu anhysbys</string>
-  <string name="to_hint">1111:to;sip:post@enghraifft.cymru:bcc;sip:bill@example.wales:cc;</string>
   <!-- In-call screen: call ended because the user has reached the maximum number of calls on their current devices and other devices. -->
-  <string name="callFailed_maximum_reached">Mae pob llinell yn brysur. I wneud galwad, datgysyllta un o\'r galwadau ar y ddyfais hon, neu ar un o dy ddyfeisiau eraill.</string>
   <!-- In-call screen: call ended because the user disabled data on their device -->
-  <string name="callFailed_data_disabled">Daeth yr alwad i ben gan fod data symudol wedi ei analluogi.</string>
   <!-- In-call screen: call ended because the cellular data limit has been reached (suitable for alert dialog) -->
-  <string name="callFailed_data_limit_reached_description">Daeth yr alwad i ben gan fod terfyn data symudol wedi ei gyrraedd.</string>
   <!-- In-call screen: call ended because the cellular data limit has been reached (intended for label in in-call screen) -->
-  <string name="callFailed_data_limit_reached">Terfyn data wedi ei gyrraedd. Diwedd yr alwad.</string>
 </resources>
