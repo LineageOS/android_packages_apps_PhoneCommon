@@ -67,6 +67,7 @@
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
   <string name="callFailed_tempopary_failure">Kegagalan sementara</string>
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
+  <string name="callFailed_switching_equipment_congestion">Perangkat pengalih kemacetan</string>
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
   <string name="callFailed_access_information_discarded">Akses informasi dibuang</string>
   <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
@@ -116,6 +117,7 @@
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
   <string name="callFailed_message_not_compatible_with_protocol_state">Pesan tidak sesuai dengan status protokol</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
+  <string name="callFailed_recovery_on_timer_expired">Pemulihan saat kadaluwarsa</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
   <string name="callFailed_protocol_error_unspecified">Kesalahan protokol, tidak ditentukan</string>
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
