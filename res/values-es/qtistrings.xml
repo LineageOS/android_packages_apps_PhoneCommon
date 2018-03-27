@@ -109,13 +109,13 @@
   <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
   <string name="callFailed_message_type_non_implemented">Tipo de mensaje inexistente o no implementado</string>
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">El tipo de mensaje no es compatible con el estado del Protocolo</string>
+  <string name="callFailed_message_type_not_compatible_with_protocol_state">El tipo de mensaje es incompatible con el estado del protocolo</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
   <string name="callFailed_information_element_non_existent">Elemento informativo inexistente o sin implementar</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
   <string name="callFailed_conditional_IE_error">Error condicional de IE</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">El mensaje no es compatible con el estado del Protocolo</string>
+  <string name="callFailed_message_not_compatible_with_protocol_state">El mensaje es incompatible con el estado del protocolo</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
   <string name="callFailed_recovery_on_timer_expired">Recuperar al expirar el temporizador</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
