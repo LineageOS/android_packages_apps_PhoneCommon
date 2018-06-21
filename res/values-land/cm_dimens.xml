@@ -16,4 +16,5 @@
 -->
 <resources>
     <dimen name="dialpad_key_number_left_margin">20dp</dimen>
+    <dimen name="dialpad_special_char_left_margin">45dp</dimen>
 </resources>
