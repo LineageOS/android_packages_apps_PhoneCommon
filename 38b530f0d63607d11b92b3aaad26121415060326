@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ea7742c_fce577d2",
+        "filename": "res/values/styles.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2018-06-28T17:11:21Z",
+      "side": 1,
+      "message": "marginStart",
+      "revId": "38b530f0d63607d11b92b3aaad26121415060326",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
