@@ -101,7 +101,7 @@
   <!-- Choice in the ringtone picker.  If chosen, there will be silence instead of a ringtone played. -->
   <string name="ringtone_silent">Dim</string>
   <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
-  <string name="ringtone_unknown">Tôn canu anhysbys</string>
+  <string name="ringtone_unknown">Tôn caniad anhysbys</string>
   <!-- In-call screen: call ended because the user has reached the maximum number of calls on their current devices and other devices. -->
   <string name="callFailed_maximum_reached">Mae pob llinell yn brysur. I wneud galwad, datgysyllta un o\'r galwadau ar y ddyfais hon, neu ar un o dy ddyfeisiau eraill.</string>
   <!-- In-call screen: call ended because the user disabled data on their device -->
