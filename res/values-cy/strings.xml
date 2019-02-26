@@ -17,17 +17,28 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!--  Do not translate. -->
+    <string name="dialpad_star_number">*</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_pound_number">#</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_0_letters">+</string>
     <!--  Do not translate. -->
     <!--  Do not translate. -->
+    <string name="dialpad_2_letters">ABC</string>
     <!--  Do not translate. -->
+    <string name="dialpad_3_letters">DEF</string>
     <!--  Do not translate. -->
+    <string name="dialpad_4_letters">GHI</string>
     <!--  Do not translate. -->
+    <string name="dialpad_5_letters">JKL</string>
     <!--  Do not translate. -->
+    <string name="dialpad_6_letters">MNO</string>
     <!--  Do not translate. -->
+    <string name="dialpad_7_letters">PQRS</string>
     <!--  Do not translate. -->
+    <string name="dialpad_8_letters">TUV</string>
     <!--  Do not translate. -->
-    <!--  Do not translate. -->
-    <!--  Do not translate. -->
+    <string name="dialpad_9_letters">WXYZ</string>
     <!--  Do not translate. -->
     <!--  Do not translate. -->
     <!-- String describing the back button in the dialpad. -->
@@ -77,13 +88,21 @@
     <!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
     <string name="callFailed_fdn_only">Mae galwadau allan wedi eu cyfyngu gan FDN.</string>
     <!-- In-call screen: call failure reason (call modified to USSD request) -->
+    <string name="callFailed_dialToUssd">Newidiwyd yr alwad i gais USSD</string>
     <!-- In-call screen: call failure reason (call modified to SS request) -->
+    <string name="callFailed_dialToSs">Newidiwyd yr alwad i gais SS</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialToDial">Newidiwyd i rif gwahanol</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialToDialVideo">Newidiwyd i alwad fideo</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToSs">Newidiwyd yr alwad fideo i gais SS</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToUssd">Newidiwyd yr alwad fideo i gais USSD</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToDial">Newidiwyd i alwad arferol</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToDialVideo">Newidiwyd i rif gwahanol</string>
     <!-- In-call screen: call failure reason (call denied because call barring is on) -->
     <string name="callFailed_cb_enabled">Nid yw\'n bosib gwneud galwadau tra bod cyfyngu galwadau ar waith.</string>
     <!-- In-call screen: call failure reason (call denied because domain specific access control is on) -->
