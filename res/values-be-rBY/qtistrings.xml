@@ -31,86 +31,27 @@
   -->
 <!-- The xml contains Qti specific resource strings neede for any value added features. -->
 <resources>
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Сеціва не працуе</string>
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">Адсутнічае падарожня да месца прызначэньня</string>
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">Непрымальны канал</string>
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <string name="callFailed_operator_determined_barring">Апэратар вызначыў забарону</string>
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">Карыстальнік не адказвае</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <string name="callFailed_no_answer_from_user">Карыстальнік азнаёмлены, адсутнічае адказ</string>
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Выклік адхілены</string>
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Нумар зьменены</string>
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <string name="callFailed_preemption">Папярэджаньне</string>
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Прызначэньне не працуе</string>
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Памылковы нумар (непоўны нумар)</string>
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <string name="callFailed_facility_rejected">Аб\'ект адхілены</string>
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <string name="callFailed_resp_to_status_enquiry">Адказ на СТАН ЗАЯВЫ</string>
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Добра, не вызначана</string>
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Часовая памылка</string>
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <string name="callFailed_switching_equipment_congestion">Перамыкач перагрузнасьці абсталяваньня</string>
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <string name="callFailed_access_information_discarded">Інфармацыя доступу была адхілена</string>
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Амоўная памылка IE</string>
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Павдамленьне не сумяшчальнае са станам пратаколу</string>
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <string name="callFailed_recovery_on_timer_expired">Адлічнік аднаўленьня застарэлы</string>
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Памылка пратаколу, дадзеныя адсутнічаюць</string>
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <string name="callFailed_interworking_unspecified">Узаемадзеяньне, дадзеныя адсутнічаюць</string>
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <string name="callFailed_non_selected_user_clearing">Не абранае ачышчэньне карыстальнікаў</string>
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
+    <string name="callFailed_network_out_of_order">Сеціва не працуе</string>
+    <string name="callFailed_no_route_to_destination">Адсутнічае падарожня да месца прызначэньня</string>
+    <string name="callFailed_channel_unacceptable">Непрымальны канал</string>
+    <string name="callFailed_operator_determined_barring">Апэратар вызначыў забарону</string>
+    <string name="callFailed_no_user_responding">Карыстальнік не адказвае</string>
+    <string name="callFailed_no_answer_from_user">Карыстальнік азнаёмлены, адсутнічае адказ</string>
+    <string name="callFailed_call_rejected">Выклік адхілены</string>
+    <string name="callFailed_number_changed">Нумар зьменены</string>
+    <string name="callFailed_preemption">Папярэджаньне</string>
+    <string name="callFailed_destination_out_of_order">Прызначэньне не працуе</string>
+    <string name="callFailed_invalid_number_format">Памылковы нумар (непоўны нумар)</string>
+    <string name="callFailed_facility_rejected">Аб\'ект адхілены</string>
+    <string name="callFailed_resp_to_status_enquiry">Адказ на СТАН ЗАЯВЫ</string>
+    <string name="callFailed_normal_unspecified">Добра, не вызначана</string>
+    <string name="callFailed_tempopary_failure">Часовая памылка</string>
+    <string name="callFailed_switching_equipment_congestion">Перамыкач перагрузнасьці абсталяваньня</string>
+    <string name="callFailed_access_information_discarded">Інфармацыя доступу была адхілена</string>
+    <string name="callFailed_conditional_IE_error">Амоўная памылка IE</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Павдамленьне не сумяшчальнае са станам пратаколу</string>
+    <string name="callFailed_recovery_on_timer_expired">Адлічнік аднаўленьня застарэлы</string>
+    <string name="callFailed_protocol_error_unspecified">Памылка пратаколу, дадзеныя адсутнічаюць</string>
+    <string name="callFailed_interworking_unspecified">Узаемадзеяньне, дадзеныя адсутнічаюць</string>
+    <string name="callFailed_non_selected_user_clearing">Не абранае ачышчэньне карыстальнікаў</string>
 </resources>

@@ -16,92 +16,34 @@
   ~ limitations under the License
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!--  Do not translate. -->
-  <string name="dialpad_star_number">*</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_pound_number">#</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_0_letters">+</string>
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <string name="dialpad_2_letters">ABC</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_3_letters">DEF</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_4_letters">GHI</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_5_letters">JKL</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_6_letters">MNO</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_7_letters">PQRS</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_8_letters">TUV</string>
-  <!--  Do not translate. -->
-  <string name="dialpad_9_letters">WXYZ</string>
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!-- String describing the back button in the dialpad. -->
-  <!-- String describing the overflow menu button in the dialpad. -->
-  <string name="description_dialpad_overflow">بەربژاردەی زیاتر</string>
-  <!-- String describing the Delete/Backspace ImageButton.
-         Used by AccessibilityService to announce the purpose of the button.
-    -->
-  <string name="description_delete_button">یه‌گه‌ڕانه‌وه‌</string>
-  <!--  String describing the button used to add a plus (+) symbol to the dialpad -->
-  <string name="description_image_button_plus">له‌گه‌ڵ</string>
-  <!-- String describing the Voicemail ImageButton.
-          Used by AccessibilityService to announce the purpose of the button.
-     -->
-  <string name="description_voicemail_button">ده‌نگه‌نامه‌</string>
-  <!--  The string used to describe a notification if it is the default one in the system. For
-          example, if the user selects the default notification, it will appear as something like
-          Default sound(Capella) in the notification summary.
-          [CHAR LIMIT=40] -->
-  <string name="default_notification_description">ئاوازی بنه‌ڕه‌ت  (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
-  <!-- In-call screen: call failure reason (busy) -->
-  <string name="callFailed_userBusy">سه‌رقاڵه‌</string>
-  <!-- In-call screen: call failure reason (network congestion) -->
-  <string name="callFailed_congestion">تۆڕ سەرقاڵە</string>
-  <!-- In-call screen: call failure reason (client timed out) -->
-  <string name="callFailed_timedOut">وه‌ڵامی نه‌بوو، کات نه‌ما</string>
-  <!-- In-call screen: call failure reason (server unreachable) -->
-  <string name="callFailed_server_unreachable">سێرڤه‌ر نه‌گه‌یه‌نه‌ره‌</string>
-  <!-- In-call screen: call failure reason (peer unreachable) -->
-  <string name="callFailed_number_unreachable">ژماره‌ نه‌گه‌یه‌نه‌ره‌</string>
-  <!-- In-call screen: call failure reason (incorrect username or password) -->
-  <string name="callFailed_invalid_credentials">ناو و وشه‌ی نهێنی به‌کارهێنه‌ر هه‌ڵه‌یه‌</string>
-  <!-- In-call screen: call failure reason (calling from out of network is not allowed) -->
-  <!-- In-call screen: call failure reason (server error) -->
-  <string name="callFailed_server_error">هه‌ڵه‌ی سێرڤه‌ر.جارێکی تر هه‌وڵ بده‌ره‌وه‌.</string>
-  <!-- In-call screen: call failure reason (no signal) -->
-  <string name="callFailed_noSignal">نیشانە نیە</string>
-  <!-- In-call screen: call failure reason (GSM ACM limit exceeded) -->
-  <string name="callFailed_limitExceeded">سنوری ACM تێپه‌ڕیوه‌</string>
-  <!-- In-call screen: call failure reason (radio is off) -->
-  <string name="callFailed_powerOff">کوژانەوەی ڕادیۆ</string>
-  <!-- In-call screen: call failure reason (SIM error) -->
-  <string name="callFailed_simError">سیمکاردی تێدا نییه‌ یان هه‌ڵه‌ی هه‌یه‌</string>
-  <!-- In-call screen: call failure reason (out of service) -->
-  <!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
-  <string name="callFailed_fdn_only">په‌یوه‌ندی ڕۆشتن به‌ستراوه‌ته‌وه‌ به‌ FDN.</string>
-  <!-- In-call screen: call failure reason (call modified to USSD request) -->
-  <!-- In-call screen: call failure reason (call modified to SS request) -->
-  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <!-- In-call screen: call failure reason (call denied because call barring is on) -->
-  <!-- In-call screen: call failure reason (call denied because domain specific access control is on) -->
-  <!-- In-call screen: call failure reason (Emergency call denied because domain specific access control is on)-->
-  <!-- In-call screen: call failure reason (Normal call denied because domain specific access control is on)-->
-  <!-- In-call screen: call failure reason (Dialed number doesn't exist) -->
-  <string name="callFailed_unobtainable_number">ژمارەکە لەکارە نیە</string>
-  <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_missing_voicemail_number">ژماره‌ی ده‌نگه‌نامه‌ نه‌زانراوه‌.</string>
-  <!-- In-call screen: call failed because you cannot make video calls when TTY is enabled. -->
-  <!-- In-call screen: call ended because it was transferred to another device. -->
-  <!-- Choice in the ringtone picker.  If chosen, there will be silence instead of a ringtone played. -->
-  <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
-  <!-- In-call screen: call ended because the user has reached the maximum number of calls on their current devices and other devices. -->
-  <!-- In-call screen: call ended because the user disabled data on their device -->
-  <!-- In-call screen: call ended because the cellular data limit has been reached (suitable for alert dialog) -->
-  <!-- In-call screen: call ended because the cellular data limit has been reached (intended for label in in-call screen) -->
+    <string name="dialpad_star_number">*</string>
+    <string name="dialpad_pound_number">#</string>
+    <string name="dialpad_0_letters">+</string>
+    <string name="dialpad_2_letters">ABC</string>
+    <string name="dialpad_3_letters">DEF</string>
+    <string name="dialpad_4_letters">GHI</string>
+    <string name="dialpad_5_letters">JKL</string>
+    <string name="dialpad_6_letters">MNO</string>
+    <string name="dialpad_7_letters">PQRS</string>
+    <string name="dialpad_8_letters">TUV</string>
+    <string name="dialpad_9_letters">WXYZ</string>
+    <string name="description_dialpad_overflow">بەربژاردەی زیاتر</string>
+    <string name="description_delete_button">یه‌گه‌ڕانه‌وه‌</string>
+    <string name="description_image_button_plus">له‌گه‌ڵ</string>
+    <string name="description_voicemail_button">ده‌نگه‌نامه‌</string>
+    <string name="default_notification_description">ئاوازی بنه‌ڕه‌ت  (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
+    <string name="callFailed_userBusy">سه‌رقاڵه‌</string>
+    <string name="callFailed_congestion">تۆڕ سەرقاڵە</string>
+    <string name="callFailed_timedOut">وه‌ڵامی نه‌بوو، کات نه‌ما</string>
+    <string name="callFailed_server_unreachable">سێرڤه‌ر نه‌گه‌یه‌نه‌ره‌</string>
+    <string name="callFailed_number_unreachable">ژماره‌ نه‌گه‌یه‌نه‌ره‌</string>
+    <string name="callFailed_invalid_credentials">ناو و وشه‌ی نهێنی به‌کارهێنه‌ر هه‌ڵه‌یه‌</string>
+    <string name="callFailed_server_error">هه‌ڵه‌ی سێرڤه‌ر.جارێکی تر هه‌وڵ بده‌ره‌وه‌.</string>
+    <string name="callFailed_noSignal">نیشانە نیە</string>
+    <string name="callFailed_limitExceeded">سنوری ACM تێپه‌ڕیوه‌</string>
+    <string name="callFailed_powerOff">کوژانەوەی ڕادیۆ</string>
+    <string name="callFailed_simError">سیمکاردی تێدا نییه‌ یان هه‌ڵه‌ی هه‌یه‌</string>
+    <string name="callFailed_fdn_only">په‌یوه‌ندی ڕۆشتن به‌ستراوه‌ته‌وه‌ به‌ FDN.</string>
+    <string name="callFailed_unobtainable_number">ژمارەکە لەکارە نیە</string>
+    <string name="incall_error_missing_voicemail_number">ژماره‌ی ده‌نگه‌نامه‌ نه‌زانراوه‌.</string>
 </resources>

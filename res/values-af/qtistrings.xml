@@ -31,109 +31,50 @@
   -->
 <!-- The xml contains Qti specific resource strings neede for any value added features. -->
 <resources>
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Netwerk nie beskikbaar nie</string>
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Netwerk buite werking</string>
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">Geen roete na bestemming</string>
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">Kanaal onaanvaarbar</string>
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <string name="callFailed_operator_determined_barring">Geblokkeer deur verskaffer</string>
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Oproep beëindig</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">Geen antwoort</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <string name="callFailed_no_answer_from_user">Geen antwoord</string>
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Oproep verwerp</string>
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Nommer verander</string>
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <string name="callFailed_preemption">Lyn beset</string>
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Bestemming buite werking</string>
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Ongeldige nommerformaat (onvolledige nommer)</string>
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <string name="callFailed_facility_rejected">Fasiliteit verwerp</string>
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <string name="callFailed_resp_to_status_enquiry">Antwoord op STATUS VRAAG</string>
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Normaal, ongespesifiseer</string>
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Tydelike mislukking</string>
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <string name="callFailed_switching_equipment_congestion">Skakel toerusting opeenhoping</string>
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <string name="callFailed_access_information_discarded">Toegang inligting verwyder</string>
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">Aangevraagde kanaal nie beskikbaar nie</string>
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Hulpbronne onbeskikbaar of ongespesifiseer</string>
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <string name="callFailed_QOS_unavailable">Kwaliteit van diens onbeskikbaar</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <string name="callFailed_requested_facility_not_subscribed">Aangevraade fasiliteit nie ingeteken nie</string>
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <string name="callFailed_incoming_calls_barred_within_CUG">Inkomende oproepe is blokeer binne die CUG</string>
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <string name="callFailed_bearer_capability_not_authorized">Ampsdraer vermoë nie gemagtig</string>
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <string name="callFailed_bearer_capability_unavailable">Ampsdraer vermoë nie tans beskikbaar</string>
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Diens of opsie nie beskikbaar nie of ongespesifiseer</string>
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <string name="callFailed_bearer_service_not_implemented">Netwerkdiens nie geïmplementeer nie</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <string name="callFailed_requested_facility_not_implemented">Aangevrade fasiliteit nie geïmplementeer nie</string>
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <string name="callFailed_only_digital_information_bearer_available">Slegs beperkte digitale inligting draervermoë is beskikbaar</string>
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Diens of opsie nie geïmplementeer nie of ongespesifiseer</string>
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Ongeldige transaksie geïdentifiseerde waarde</string>
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <string name="callFailed_user_not_member_of_CUG">Gebruiker is nie \'n lid van CUG nie</string>
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <string name="callFailed_incompatible_destination">Onversoenbare bestemming</string>
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <string name="callFailed_invalid_transit_NW_selection">Ongeldige transito netwerk seleksie</string>
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <string name="callFailed_semantically_incorrect_message">Semanties verkeerde boodskap</string>
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <string name="callFailed_invalid_mandatory_information">Ongeldige verpligte inligting</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <string name="callFailed_message_type_non_implemented">Boodskap tipe bestaan nie of nie geïmplementeer nie</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">Boodskap tipe nie versoenbaar met protokol status nie</string>
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Inligtings element bestaan nie of nie geïmplementeer nie</string>
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Voorwaardelike IE fout</string>
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Boodskap onversoenbaar met protokolstatus</string>
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <string name="callFailed_recovery_on_timer_expired">Herstel op tydhouer verstryking</string>
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Protokolfout, ongespesifiseer</string>
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <string name="callFailed_interworking_unspecified">Samewerking, ongespesifiseer</string>
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <string name="callFailed_non_selected_user_clearing">Nie geselekteerde gebruiker opruiming</string>
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
+    <string name="callFailed_no_circuit_avail">Netwerk nie beskikbaar nie</string>
+    <string name="callFailed_network_out_of_order">Netwerk buite werking</string>
+    <string name="callFailed_no_route_to_destination">Geen roete na bestemming</string>
+    <string name="callFailed_channel_unacceptable">Kanaal onaanvaarbar</string>
+    <string name="callFailed_operator_determined_barring">Geblokkeer deur verskaffer</string>
+    <string name="callFailed_normal">Oproep beëindig</string>
+    <string name="callFailed_no_user_responding">Geen antwoort</string>
+    <string name="callFailed_no_answer_from_user">Geen antwoord</string>
+    <string name="callFailed_call_rejected">Oproep verwerp</string>
+    <string name="callFailed_number_changed">Nommer verander</string>
+    <string name="callFailed_preemption">Lyn beset</string>
+    <string name="callFailed_destination_out_of_order">Bestemming buite werking</string>
+    <string name="callFailed_invalid_number_format">Ongeldige nommerformaat (onvolledige nommer)</string>
+    <string name="callFailed_facility_rejected">Fasiliteit verwerp</string>
+    <string name="callFailed_resp_to_status_enquiry">Antwoord op STATUS VRAAG</string>
+    <string name="callFailed_normal_unspecified">Normaal, ongespesifiseer</string>
+    <string name="callFailed_tempopary_failure">Tydelike mislukking</string>
+    <string name="callFailed_switching_equipment_congestion">Skakel toerusting opeenhoping</string>
+    <string name="callFailed_access_information_discarded">Toegang inligting verwyder</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">Aangevraagde kanaal nie beskikbaar nie</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">Hulpbronne onbeskikbaar of ongespesifiseer</string>
+    <string name="callFailed_QOS_unavailable">Kwaliteit van diens onbeskikbaar</string>
+    <string name="callFailed_requested_facility_not_subscribed">Aangevraade fasiliteit nie ingeteken nie</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">Inkomende oproepe is blokeer binne die CUG</string>
+    <string name="callFailed_bearer_capability_not_authorized">Ampsdraer vermoë nie gemagtig</string>
+    <string name="callFailed_bearer_capability_unavailable">Ampsdraer vermoë nie tans beskikbaar</string>
+    <string name="callFailed_service_option_not_available">Diens of opsie nie beskikbaar nie of ongespesifiseer</string>
+    <string name="callFailed_bearer_service_not_implemented">Netwerkdiens nie geïmplementeer nie</string>
+    <string name="callFailed_requested_facility_not_implemented">Aangevrade fasiliteit nie geïmplementeer nie</string>
+    <string name="callFailed_only_digital_information_bearer_available">Slegs beperkte digitale inligting draervermoë is beskikbaar</string>
+    <string name="callFailed_service_or_option_not_implemented">Diens of opsie nie geïmplementeer nie of ongespesifiseer</string>
+    <string name="callFailed_invalid_transaction_identifier">Ongeldige transaksie geïdentifiseerde waarde</string>
+    <string name="callFailed_user_not_member_of_CUG">Gebruiker is nie \'n lid van CUG nie</string>
+    <string name="callFailed_incompatible_destination">Onversoenbare bestemming</string>
+    <string name="callFailed_invalid_transit_NW_selection">Ongeldige transito netwerk seleksie</string>
+    <string name="callFailed_semantically_incorrect_message">Semanties verkeerde boodskap</string>
+    <string name="callFailed_invalid_mandatory_information">Ongeldige verpligte inligting</string>
+    <string name="callFailed_message_type_non_implemented">Boodskap tipe bestaan nie of nie geïmplementeer nie</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">Boodskap tipe nie versoenbaar met protokol status nie</string>
+    <string name="callFailed_information_element_non_existent">Inligtings element bestaan nie of nie geïmplementeer nie</string>
+    <string name="callFailed_conditional_IE_error">Voorwaardelike IE fout</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Boodskap onversoenbaar met protokolstatus</string>
+    <string name="callFailed_recovery_on_timer_expired">Herstel op tydhouer verstryking</string>
+    <string name="callFailed_protocol_error_unspecified">Protokolfout, ongespesifiseer</string>
+    <string name="callFailed_interworking_unspecified">Samewerking, ongespesifiseer</string>
+    <string name="callFailed_non_selected_user_clearing">Nie geselekteerde gebruiker opruiming</string>
 </resources>

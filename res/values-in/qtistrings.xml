@@ -31,109 +31,50 @@
   -->
 <!-- The xml contains Qti specific resource strings neede for any value added features. -->
 <resources>
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Sirkuit tidak tersedia</string>
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Diluar jaringan</string>
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">Tidak ada rute tujuan</string>
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">Saluran tidak dapat diterima</string>
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <string name="callFailed_operator_determined_barring">Operator menentukan pembatasan</string>
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Pembersihan panggilan normal</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">Pengguna tidak merespons</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <string name="callFailed_no_answer_from_user">Pengguna menyiagakan, tidak ada jawaban</string>
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Panggilan ditolak</string>
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Nomor berubah</string>
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <string name="callFailed_preemption">Pre-emption</string>
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Tujuan rusak</string>
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Format nomor tidak valid (nomor lengkap)</string>
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <string name="callFailed_facility_rejected">Fasilitas ditolak</string>
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <string name="callFailed_resp_to_status_enquiry">Menanggapi PERTANYAAN STATUS</string>
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Normal, tidak ditentukan</string>
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Kegagalan sementara</string>
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <string name="callFailed_switching_equipment_congestion">Perangkat pengalih kemacetan</string>
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <string name="callFailed_access_information_discarded">Akses informasi dibuang</string>
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">Permintaan sirkuit/saluran tidak tersedia</string>
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Resources tidak tersedia atau tidak ditentukan</string>
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <string name="callFailed_QOS_unavailable">Kualitas layanan tidak tersedia</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <string name="callFailed_requested_facility_not_subscribed">Permintaan fasilitas belum berlangganan</string>
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <string name="callFailed_incoming_calls_barred_within_CUG">Panggilan masuk dilarang dalam CUG</string>
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <string name="callFailed_bearer_capability_not_authorized">Kemampuan pembawa tidak diizinkan</string>
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <string name="callFailed_bearer_capability_unavailable">Kemampuan pembawa tidak tersedia saat ini</string>
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Layanan atau pilihan tidak tersedia atau tidak ditentukan</string>
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <string name="callFailed_bearer_service_not_implemented">Layanan pembawa tidak diimplementasikan</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <string name="callFailed_requested_facility_not_implemented">Fasilitas yang diminta tidak diimplementasikan</string>
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <string name="callFailed_only_digital_information_bearer_available">Hanya kemampuan pembawa informasi digital terbatas yang tersedia</string>
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Layanan atau pilihan tidak diimplementasikan atau tidak ditentukan</string>
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Nilai pengenal transaksi tidak valid</string>
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <string name="callFailed_user_not_member_of_CUG">Pengguna bukan anggota CUG</string>
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <string name="callFailed_incompatible_destination">Tujuan tidak sesuai</string>
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <string name="callFailed_invalid_transit_NW_selection">Pemilihan jaringan transit tidak valid</string>
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <string name="callFailed_semantically_incorrect_message">Pesan tidak benar secara semantik</string>
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <string name="callFailed_invalid_mandatory_information">Informasi wajib tidak valid</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <string name="callFailed_message_type_non_implemented">Jenis pesan tidak ada atau tidak diimplementasikan</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">Jenis pesan tidak sesuai dengan status protokol</string>
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Elemen informasi tidak ada atau tidak diimplementasikan</string>
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Kesalahan IE bersyarat</string>
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Pesan tidak sesuai dengan status protokol</string>
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <string name="callFailed_recovery_on_timer_expired">Pemulihan saat kadaluwarsa</string>
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Kesalahan protokol, tidak ditentukan</string>
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <string name="callFailed_interworking_unspecified">Interoperabilitas, tidak ditentukan</string>
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <string name="callFailed_non_selected_user_clearing">Pembersihan pengguna yang tidak dipilih</string>
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
+    <string name="callFailed_no_circuit_avail">Sirkuit tidak tersedia</string>
+    <string name="callFailed_network_out_of_order">Diluar jaringan</string>
+    <string name="callFailed_no_route_to_destination">Tidak ada rute tujuan</string>
+    <string name="callFailed_channel_unacceptable">Saluran tidak dapat diterima</string>
+    <string name="callFailed_operator_determined_barring">Operator menentukan pembatasan</string>
+    <string name="callFailed_normal">Pembersihan panggilan normal</string>
+    <string name="callFailed_no_user_responding">Pengguna tidak merespons</string>
+    <string name="callFailed_no_answer_from_user">Pengguna menyiagakan, tidak ada jawaban</string>
+    <string name="callFailed_call_rejected">Panggilan ditolak</string>
+    <string name="callFailed_number_changed">Nomor berubah</string>
+    <string name="callFailed_preemption">Pre-emption</string>
+    <string name="callFailed_destination_out_of_order">Tujuan rusak</string>
+    <string name="callFailed_invalid_number_format">Format nomor tidak valid (nomor lengkap)</string>
+    <string name="callFailed_facility_rejected">Fasilitas ditolak</string>
+    <string name="callFailed_resp_to_status_enquiry">Menanggapi PERTANYAAN STATUS</string>
+    <string name="callFailed_normal_unspecified">Normal, tidak ditentukan</string>
+    <string name="callFailed_tempopary_failure">Kegagalan sementara</string>
+    <string name="callFailed_switching_equipment_congestion">Perangkat pengalih kemacetan</string>
+    <string name="callFailed_access_information_discarded">Akses informasi dibuang</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">Permintaan sirkuit/saluran tidak tersedia</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">Resources tidak tersedia atau tidak ditentukan</string>
+    <string name="callFailed_QOS_unavailable">Kualitas layanan tidak tersedia</string>
+    <string name="callFailed_requested_facility_not_subscribed">Permintaan fasilitas belum berlangganan</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">Panggilan masuk dilarang dalam CUG</string>
+    <string name="callFailed_bearer_capability_not_authorized">Kemampuan pembawa tidak diizinkan</string>
+    <string name="callFailed_bearer_capability_unavailable">Kemampuan pembawa tidak tersedia saat ini</string>
+    <string name="callFailed_service_option_not_available">Layanan atau pilihan tidak tersedia atau tidak ditentukan</string>
+    <string name="callFailed_bearer_service_not_implemented">Layanan pembawa tidak diimplementasikan</string>
+    <string name="callFailed_requested_facility_not_implemented">Fasilitas yang diminta tidak diimplementasikan</string>
+    <string name="callFailed_only_digital_information_bearer_available">Hanya kemampuan pembawa informasi digital terbatas yang tersedia</string>
+    <string name="callFailed_service_or_option_not_implemented">Layanan atau pilihan tidak diimplementasikan atau tidak ditentukan</string>
+    <string name="callFailed_invalid_transaction_identifier">Nilai pengenal transaksi tidak valid</string>
+    <string name="callFailed_user_not_member_of_CUG">Pengguna bukan anggota CUG</string>
+    <string name="callFailed_incompatible_destination">Tujuan tidak sesuai</string>
+    <string name="callFailed_invalid_transit_NW_selection">Pemilihan jaringan transit tidak valid</string>
+    <string name="callFailed_semantically_incorrect_message">Pesan tidak benar secara semantik</string>
+    <string name="callFailed_invalid_mandatory_information">Informasi wajib tidak valid</string>
+    <string name="callFailed_message_type_non_implemented">Jenis pesan tidak ada atau tidak diimplementasikan</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">Jenis pesan tidak sesuai dengan status protokol</string>
+    <string name="callFailed_information_element_non_existent">Elemen informasi tidak ada atau tidak diimplementasikan</string>
+    <string name="callFailed_conditional_IE_error">Kesalahan IE bersyarat</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Pesan tidak sesuai dengan status protokol</string>
+    <string name="callFailed_recovery_on_timer_expired">Pemulihan saat kadaluwarsa</string>
+    <string name="callFailed_protocol_error_unspecified">Kesalahan protokol, tidak ditentukan</string>
+    <string name="callFailed_interworking_unspecified">Interoperabilitas, tidak ditentukan</string>
+    <string name="callFailed_non_selected_user_clearing">Pembersihan pengguna yang tidak dipilih</string>
 </resources>

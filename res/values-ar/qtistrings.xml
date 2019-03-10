@@ -31,63 +31,50 @@
   -->
 <!-- The xml contains Qti specific resource strings neede for any value added features. -->
 <resources>
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
+    <string name="callFailed_no_circuit_avail">لا توجد دائرة اتصال متاحة</string>
+    <string name="callFailed_network_out_of_order">الشبكة خارج الخدمة</string>
+    <string name="callFailed_no_route_to_destination">لا يوجد مسار إلى الوجهة</string>
+    <string name="callFailed_channel_unacceptable">القناة غير مقبولة</string>
+    <string name="callFailed_operator_determined_barring">المُشغل المحدد ممنوع</string>
+    <string name="callFailed_normal">تصفية مكالمة عادية</string>
+    <string name="callFailed_no_user_responding">المستخدم لا يستجيب</string>
+    <string name="callFailed_no_answer_from_user">تنبيه المستخدم، لا يوجد رد</string>
+    <string name="callFailed_call_rejected">تم رفض المكالمة</string>
+    <string name="callFailed_number_changed">تم تغيير الرقم</string>
+    <string name="callFailed_preemption">حق الرفض</string>
+    <string name="callFailed_destination_out_of_order">الوجهة خارج الخدمة</string>
+    <string name="callFailed_invalid_number_format">تنسيق الرقم غير صحيح (غير مكتمل العدد)</string>
+    <string name="callFailed_facility_rejected">تم رفض الخدمة</string>
+    <string name="callFailed_resp_to_status_enquiry">رد على الاستفسار عن الحالة</string>
+    <string name="callFailed_normal_unspecified">عادي ، غير محدد</string>
+    <string name="callFailed_tempopary_failure">فشل مؤقت</string>
+    <string name="callFailed_switching_equipment_congestion">تبديل الازدحام في المعدات</string>
+    <string name="callFailed_access_information_discarded">تم تجاهل الوصول إلى المعلومات</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">الدائرة/القناة المطلوبة غير متوفرة</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">الموارد غير متوفرة أو غير محددة</string>
+    <string name="callFailed_QOS_unavailable">جودة الخدمة غير متوفرة</string>
+    <string name="callFailed_requested_facility_not_subscribed">غير مشترك في الخدمة المطلوبة</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">تم حظر المكالمات الواردة خلال مجموعة المستخدم المغلقة</string>
+    <string name="callFailed_bearer_capability_not_authorized">إمكانية الناقل غير مسموح بها</string>
+    <string name="callFailed_bearer_capability_unavailable">إمكانية الناقل غير متوفرة حالياً</string>
+    <string name="callFailed_service_option_not_available">الخيار أو الخدمة غير متوفرة أو غير محددة</string>
+    <string name="callFailed_bearer_service_not_implemented">خدمة الناقل لم تتطبق بعد</string>
+    <string name="callFailed_requested_facility_not_implemented">الخدمة المطلوبة لم تطبق بعد</string>
+    <string name="callFailed_only_digital_information_bearer_available">تتوفر فقط المعلومات الرقمية المقيدة لإمكانية الناقل</string>
+    <string name="callFailed_service_or_option_not_implemented">الخيار أو الخدمة لم تتطبق أو غير محددة</string>
+    <string name="callFailed_invalid_transaction_identifier">قيمة معرف المعاملة غير صالح</string>
+    <string name="callFailed_user_not_member_of_CUG">المستخدم ليس عضو في مجموعة المستخدم المغلقة</string>
+    <string name="callFailed_incompatible_destination">الوجهة غير متوافقة</string>
+    <string name="callFailed_invalid_transit_NW_selection">إختيار عبور الشبكة غير صحيح</string>
+    <string name="callFailed_semantically_incorrect_message">رسالة غير صحيحة لغوياً</string>
+    <string name="callFailed_invalid_mandatory_information">معلومات إلزامية غير صالحة</string>
+    <string name="callFailed_message_type_non_implemented">نوع الرسالة غير موجود أو غير مطبق</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">نوع رسالة غير متوافق مع بروتوكول الدولة</string>
+    <string name="callFailed_information_element_non_existent">عنصر المعلومات غير موجودة أو غير مطبق</string>
+    <string name="callFailed_conditional_IE_error">خطأ IE مشروط</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">الرسالة غير متوافقة مع بروتوكول الدولة</string>
+    <string name="callFailed_recovery_on_timer_expired">انتهاء صلاحية الاستعادة خلال الوقت المسموح به</string>
+    <string name="callFailed_protocol_error_unspecified">خطأ في البروتوكول، غير محدد</string>
+    <string name="callFailed_interworking_unspecified">التشغيل ، غير محدد</string>
+    <string name="callFailed_non_selected_user_clearing">إزالة مستخدم غير محدد</string>
 </resources>

@@ -31,98 +31,50 @@
   -->
 <!-- The xml contains Qti specific resource strings neede for any value added features. -->
 <resources>
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Circuitu non disponible</string>
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Rede fuera de serviciu</string>
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">Nun hai ruta al destín</string>
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">Canal inaceutable</string>
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <string name="callFailed_operator_determined_barring">Bloquéu determináu pol operador</string>
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Desconexón normal de llamada</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">Ensin rempuesta</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <string name="callFailed_no_answer_from_user">Alerta d\'usuariu, ensin rempuesta</string>
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Llamada refugada</string>
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Camudó\'l númberu</string>
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <string name="callFailed_preemption">Drechu preferente de merca</string>
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Destín fuera de serviciu</string>
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Formatu non válidu de númberu (númberu incompletu)</string>
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <string name="callFailed_facility_rejected">Facilidá refugada</string>
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <string name="callFailed_resp_to_status_enquiry">Rempuesta a STATUS ENQUIRY</string>
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Normal, ensin especificar</string>
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Fallu temporal</string>
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <string name="callFailed_switching_equipment_congestion">Conxestión d\'equipamientu de conmutación</string>
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <string name="callFailed_access_information_discarded">Escartóse l\'accesu a la información</string>
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">Nun ta disponible\'l circuitu/canal solicitáu</string>
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Recursos non disponibles o ensin especificar</string>
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <string name="callFailed_QOS_unavailable">Calidá non disponible del serviciu</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <string name="callFailed_requested_facility_not_subscribed">Facilidá solicitada non soscrita</string>
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Serviciu u opción non disponible o ensin especificar</string>
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <string name="callFailed_requested_facility_not_implemented">Nun s\'implementó la facilidá solicitada</string>
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Valor non válidu d\'identificador de transaición</string>
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <string name="callFailed_user_not_member_of_CUG">L\'usuariu nun ye miembru de CUG</string>
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <string name="callFailed_incompatible_destination">Destín incompatible</string>
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <string name="callFailed_invalid_transit_NW_selection">Esbilla non válida de rede de tránsitu</string>
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <string name="callFailed_semantically_incorrect_message">Mensaxe semánticamente incorreutu</string>
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <string name="callFailed_invalid_mandatory_information">Información obligatoria non válida</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">La triba\'l mensaxe nun ye compatible col estáu\'l protocolu</string>
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Fallu d\'IE condicional</string>
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Mensaxe non compatible col estáu\'l protocolu</string>
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Fallu de protocolu, ensin especificar</string>
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
+    <string name="callFailed_no_circuit_avail">Circuitu non disponible</string>
+    <string name="callFailed_network_out_of_order">Rede fuera de serviciu</string>
+    <string name="callFailed_no_route_to_destination">Nun hai ruta al destín</string>
+    <string name="callFailed_channel_unacceptable">Canal inaceutable</string>
+    <string name="callFailed_operator_determined_barring">Bloquéu determináu pol operador</string>
+    <string name="callFailed_normal">Desconexón normal de llamada</string>
+    <string name="callFailed_no_user_responding">Ensin rempuesta</string>
+    <string name="callFailed_no_answer_from_user">Alerta d\'usuariu, ensin rempuesta</string>
+    <string name="callFailed_call_rejected">Llamada refugada</string>
+    <string name="callFailed_number_changed">Camudó\'l númberu</string>
+    <string name="callFailed_preemption">Drechu preferente de merca</string>
+    <string name="callFailed_destination_out_of_order">Destín fuera de serviciu</string>
+    <string name="callFailed_invalid_number_format">Formatu non válidu de númberu (númberu incompletu)</string>
+    <string name="callFailed_facility_rejected">Facilidá refugada</string>
+    <string name="callFailed_resp_to_status_enquiry">Rempuesta a STATUS ENQUIRY</string>
+    <string name="callFailed_normal_unspecified">Normal, ensin especificar</string>
+    <string name="callFailed_tempopary_failure">Fallu temporal</string>
+    <string name="callFailed_switching_equipment_congestion">Conxestión d\'equipamientu de conmutación</string>
+    <string name="callFailed_access_information_discarded">Escartóse l\'accesu a la información</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">Nun ta disponible\'l circuitu/canal solicitáu</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">Recursos non disponibles o ensin especificar</string>
+    <string name="callFailed_QOS_unavailable">Calidá non disponible del serviciu</string>
+    <string name="callFailed_requested_facility_not_subscribed">Facilidá solicitada non soscrita</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">Llamaes entrantes bloquiaes dientro\'l CUG</string>
+    <string name="callFailed_bearer_capability_not_authorized">Capacidá de bloquéu non autorizada</string>
+    <string name="callFailed_bearer_capability_unavailable">Capacidá de portador non disponible de mou presente</string>
+    <string name="callFailed_service_option_not_available">Serviciu u opción non disponible o ensin especificar</string>
+    <string name="callFailed_bearer_service_not_implemented">Nun s\'implemento\'l serviciu de bloquéu</string>
+    <string name="callFailed_requested_facility_not_implemented">Nun s\'implementó la facilidá solicitada</string>
+    <string name="callFailed_only_digital_information_bearer_available">Namái ta disponible la capacidá d\'información dixital torgada del portador</string>
+    <string name="callFailed_service_or_option_not_implemented">Serviciu u opción non disponibles o ensin especificar</string>
+    <string name="callFailed_invalid_transaction_identifier">Valor non válidu d\'identificador de transaición</string>
+    <string name="callFailed_user_not_member_of_CUG">L\'usuariu nun ye miembru de CUG</string>
+    <string name="callFailed_incompatible_destination">Destín incompatible</string>
+    <string name="callFailed_invalid_transit_NW_selection">Esbilla non válida de rede de tránsitu</string>
+    <string name="callFailed_semantically_incorrect_message">Mensaxe semánticamente incorreutu</string>
+    <string name="callFailed_invalid_mandatory_information">Información obligatoria non válida</string>
+    <string name="callFailed_message_type_non_implemented">Triba non esistente o ensin implementar de mensaxe</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">La triba\'l mensaxe nun ye compatible col estáu\'l protocolu</string>
+    <string name="callFailed_information_element_non_existent">Elementu non esistente o ensin implementar d\'información</string>
+    <string name="callFailed_conditional_IE_error">Fallu d\'IE condicional</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Mensaxe non compatible col estáu\'l protocolu</string>
+    <string name="callFailed_recovery_on_timer_expired">Recuperación al caducar el tiempu</string>
+    <string name="callFailed_protocol_error_unspecified">Fallu de protocolu, ensin especificar</string>
+    <string name="callFailed_interworking_unspecified">Interoperatividá, ensin especificar</string>
+    <string name="callFailed_non_selected_user_clearing">Nun s\'esbilló la desconexón del usuariu</string>
 </resources>

@@ -31,109 +31,50 @@
   -->
 <!-- The xml contains Qti specific resource strings neede for any value added features. -->
 <resources>
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Немає доступних схем</string>
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Мережа виведена з ладу</string>
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">Немає маршруту до місця призначення</string>
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">Неприйнятний канал</string>
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <string name="callFailed_operator_determined_barring">Оператор встановив заборону</string>
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Звичайне очищення виклику</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">Користувач не відповідає</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <string name="callFailed_no_answer_from_user">Користувач сповіщений, немає відповіді</string>
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Виклик відхилено</string>
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Номер змінено</string>
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <string name="callFailed_preemption">Випередження</string>
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Призначення не працює</string>
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Неправильний числовий формат (номер не є повним)</string>
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <string name="callFailed_facility_rejected">Об\'єкт відхилено</string>
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <string name="callFailed_resp_to_status_enquiry">Відповідь на СТАТУС ЗАЯВКИ</string>
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Нормальний, невизначений</string>
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Тимчасова помилка</string>
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <string name="callFailed_switching_equipment_congestion">Перемикання перевантаженості обладнання</string>
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <string name="callFailed_access_information_discarded">В доступі до інформації відмовлено</string>
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">Запитана схема/канал недоступна</string>
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Ресурси недоступні або невизначені</string>
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <string name="callFailed_QOS_unavailable">QOS недоступний</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <string name="callFailed_requested_facility_not_subscribed">Запитаний об\'єкт не підписаний</string>
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <string name="callFailed_incoming_calls_barred_within_CUG">Вхідні дзвінки заборонені всередині CUG</string>
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <string name="callFailed_bearer_capability_not_authorized">Можливості оператора не авторизовані</string>
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <string name="callFailed_bearer_capability_unavailable">Можливості оператора зараз недоступні</string>
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Сервіс чи опція недоступна або невизначена</string>
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <string name="callFailed_bearer_service_not_implemented">Послуги оператора не реалізовані</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <string name="callFailed_requested_facility_not_implemented">Запитаний об\'єкт не реалізовано</string>
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <string name="callFailed_only_digital_information_bearer_available">Доступна тільки обмежена інформація про пропускну здатність оператора</string>
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Сервіс чи опція нереалізована або невизначена</string>
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Неправильне значення ідентифікатора транзакції</string>
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <string name="callFailed_user_not_member_of_CUG">Користувач не є членом CUG</string>
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <string name="callFailed_incompatible_destination">Несумісне призначення</string>
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <string name="callFailed_invalid_transit_NW_selection">Неправильний вибір транзитної мережі</string>
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <string name="callFailed_semantically_incorrect_message">Семантично неправильне повідомлення</string>
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <string name="callFailed_invalid_mandatory_information">Неправильна обов\'язкова інформація</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <string name="callFailed_message_type_non_implemented">Тип повідомлення не існує чи не реалізований</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">Тип повідомлення несумісний зі станом протоколу</string>
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Інформаційний елемент не існує або нереалізований</string>
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Умовна помилка IE</string>
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Повідомлення не сумісне з станом протоколу</string>
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <string name="callFailed_recovery_on_timer_expired">Відновлення після закінчення таймера</string>
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Помилка протоколу, невизначена</string>
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <string name="callFailed_interworking_unspecified">Взаємодія, немає даних</string>
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <string name="callFailed_non_selected_user_clearing">Не вибране очищення користувачів</string>
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
-  <!--  Do not translate. -->
+    <string name="callFailed_no_circuit_avail">Немає доступних схем</string>
+    <string name="callFailed_network_out_of_order">Мережа виведена з ладу</string>
+    <string name="callFailed_no_route_to_destination">Немає маршруту до місця призначення</string>
+    <string name="callFailed_channel_unacceptable">Неприйнятний канал</string>
+    <string name="callFailed_operator_determined_barring">Оператор встановив заборону</string>
+    <string name="callFailed_normal">Звичайне очищення виклику</string>
+    <string name="callFailed_no_user_responding">Користувач не відповідає</string>
+    <string name="callFailed_no_answer_from_user">Користувач сповіщений, немає відповіді</string>
+    <string name="callFailed_call_rejected">Виклик відхилено</string>
+    <string name="callFailed_number_changed">Номер змінено</string>
+    <string name="callFailed_preemption">Випередження</string>
+    <string name="callFailed_destination_out_of_order">Призначення не працює</string>
+    <string name="callFailed_invalid_number_format">Неправильний числовий формат (номер не є повним)</string>
+    <string name="callFailed_facility_rejected">Об\'єкт відхилено</string>
+    <string name="callFailed_resp_to_status_enquiry">Відповідь на СТАТУС ЗАЯВКИ</string>
+    <string name="callFailed_normal_unspecified">Нормальний, невизначений</string>
+    <string name="callFailed_tempopary_failure">Тимчасова помилка</string>
+    <string name="callFailed_switching_equipment_congestion">Перемикання перевантаженості обладнання</string>
+    <string name="callFailed_access_information_discarded">В доступі до інформації відмовлено</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">Запитана схема/канал недоступна</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">Ресурси недоступні або невизначені</string>
+    <string name="callFailed_QOS_unavailable">QOS недоступний</string>
+    <string name="callFailed_requested_facility_not_subscribed">Запитаний об\'єкт не підписаний</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">Вхідні дзвінки заборонені всередині CUG</string>
+    <string name="callFailed_bearer_capability_not_authorized">Можливості оператора не авторизовані</string>
+    <string name="callFailed_bearer_capability_unavailable">Можливості оператора зараз недоступні</string>
+    <string name="callFailed_service_option_not_available">Сервіс чи опція недоступна або невизначена</string>
+    <string name="callFailed_bearer_service_not_implemented">Послуги оператора не реалізовані</string>
+    <string name="callFailed_requested_facility_not_implemented">Запитаний об\'єкт не реалізовано</string>
+    <string name="callFailed_only_digital_information_bearer_available">Доступна тільки обмежена інформація про пропускну здатність оператора</string>
+    <string name="callFailed_service_or_option_not_implemented">Сервіс чи опція нереалізована або невизначена</string>
+    <string name="callFailed_invalid_transaction_identifier">Неправильне значення ідентифікатора транзакції</string>
+    <string name="callFailed_user_not_member_of_CUG">Користувач не є членом CUG</string>
+    <string name="callFailed_incompatible_destination">Несумісне призначення</string>
+    <string name="callFailed_invalid_transit_NW_selection">Неправильний вибір транзитної мережі</string>
+    <string name="callFailed_semantically_incorrect_message">Семантично неправильне повідомлення</string>
+    <string name="callFailed_invalid_mandatory_information">Неправильна обов\'язкова інформація</string>
+    <string name="callFailed_message_type_non_implemented">Тип повідомлення не існує чи не реалізований</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">Тип повідомлення несумісний зі станом протоколу</string>
+    <string name="callFailed_information_element_non_existent">Інформаційний елемент не існує або нереалізований</string>
+    <string name="callFailed_conditional_IE_error">Умовна помилка IE</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Повідомлення не сумісне з станом протоколу</string>
+    <string name="callFailed_recovery_on_timer_expired">Відновлення після закінчення таймера</string>
+    <string name="callFailed_protocol_error_unspecified">Помилка протоколу, невизначена</string>
+    <string name="callFailed_interworking_unspecified">Взаємодія, немає даних</string>
+    <string name="callFailed_non_selected_user_clearing">Не вибране очищення користувачів</string>
 </resources>
