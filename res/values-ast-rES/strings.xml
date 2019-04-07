@@ -47,6 +47,14 @@
     <string name="callFailed_simError">Nun hai tarxeta SIM o hebo un fallu rellacionáu cola mesma</string>
     <string name="callFailed_outOfService">Rede móvil non disponible</string>
     <string name="callFailed_fdn_only">Les llamaes salientes tán restrinxíes por FDN.</string>
+    <string name="callFailed_dialToUssd">Llamada cambiada a solicitú d\'USSD</string>
+    <string name="callFailed_dialToSs">Llamada cambiada a solicitú de SS</string>
+    <string name="callFailed_dialToDial">Camudáu a númberu diferente</string>
+    <string name="callFailed_dialToDialVideo">Cambiar a llamada de videu</string>
+    <string name="callFailed_dialVideoToSs">Videu llamada cambiada a solicitú de SS</string>
+    <string name="callFailed_dialVideoToUssd">Videu llamada cambiada a solicitú d\'USSD</string>
+    <string name="callFailed_dialVideoToDial">Cambiáu a llamada normal</string>
+    <string name="callFailed_dialVideoToDialVideo">Cambiáu a númberu diferente</string>
     <string name="callFailed_cb_enabled">Nun puen facese llamaes mentanto tea activada la restricción de llamaes.</string>
     <string name="callFailed_dsac_restricted">Llamaes torgaes pol control d\'accesu.</string>
     <string name="callFailed_dsac_restricted_emergency">Llamaes d\'emerxencia torgaes pol control d\'accesu.</string>
