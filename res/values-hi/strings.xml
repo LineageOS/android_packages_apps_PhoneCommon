@@ -30,21 +30,21 @@
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"नंबर पहुंच योग्य नहीं है"</string>
     <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"गलत उपयोगकर्ता नाम या पासवर्ड"</string>
     <string name="callFailed_out_of_network" msgid="6970725831030399542">"नेटवर्क से बाहर का कॉल"</string>
-    <string name="callFailed_server_error" msgid="1391421251190688379">"सर्वर गड़बड़ी. बाद में फिर से प्रयास करें."</string>
+    <string name="callFailed_server_error" msgid="1391421251190688379">"सर्वर गड़बड़ी. बाद में पुन: प्रयास करें."</string>
     <string name="callFailed_noSignal" msgid="1758972490451048086">"कोई सिग्नल नहीं"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM सीमा पार हो गई"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"रेडियो बंद"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"कोई SIM नहीं या SIM गड़बड़ी"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"सेल्युलर नेटवर्क उपलब्‍ध नहीं है"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"आउटगोइंग कॉल FDN द्वारा प्रतिबंधित हैं."</string>
-    <string name="callFailed_dialToUssd" msgid="2433610980015734954">"कॉल को USSD अनुरोध में बदला गया"</string>
-    <string name="callFailed_dialToSs" msgid="1932708241240329683">"कॉल को SS अनुरोध में बदला गया"</string>
-    <string name="callFailed_dialToDial" msgid="4383070508519313539">"दूसरे नंबर में बदला गया"</string>
-    <string name="callFailed_dialToDialVideo" msgid="5132568145494398814">"वीडियो कॉल में बदला गया"</string>
-    <string name="callFailed_dialVideoToSs" msgid="4775276313558039477">"वीडियो कॉल को SS अनुरोध में बदला गया"</string>
-    <string name="callFailed_dialVideoToUssd" msgid="3075648968404725328">"वीडियो कॉल को USSD अनुरोध में बदला गया"</string>
-    <string name="callFailed_dialVideoToDial" msgid="7758276428184272770">"सामान्य कॉल में बदला गया"</string>
-    <string name="callFailed_dialVideoToDialVideo" msgid="5451053686606499859">"दूसरे नंबर में बदला गया"</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL अनुरोध को USSD अनुरोध में बदल दिया गया है."</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL अनुरोध को SS अनुरोध में बदल दिया गया है."</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL अनुरोध को भिन्न नंबर वाले DIAL अनुरोध में बदल दिया गया है."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL अनुरोध को वीडियो DIAL में बदल दिया गया."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"वीडियो DIAL अनुरोध को SS अनुरोध में बदल दिया गया."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"वीडियो DIAL अनुरोध को USSD अनुरोध में बदल दिया गया."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"वीडियो DIAL अनुरोध को DIAL में बदल दिया गया."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"वीडियो DIAL अनुरोध को दूसरे नंबर वाले वीडियो DIAL में बदल दिया गया."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"कॉल अवरोधन चालू होने पर आउटगोइंग कॉल नहीं किए जा सकते."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"ऐक्‍सेस नियंत्रण द्वारा कॉल प्रतिबंधित हैं."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"ऐक्‍सेस नियंत्रण द्वारा आपातकालीन कॉल प्रतिबंधित हैं."</string>
@@ -56,7 +56,7 @@
     <string name="ringtone_silent" msgid="249805466934178869">"कोई नहीं"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"अज्ञात रिंगटोन"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"सभी उपलब्ध लाइनें उपयोग में हैं. कॉल करने के लिए, इस डिवाइस पर या आपके अन्य किसी डिवाइस पर किसी एक कॉल को डिसकनेक्ट करें."</string>
-    <string name="callFailed_data_disabled" msgid="3885826754435317856">"कॉल खत्म हो गया क्योंकि सेल्यूलर डेटा निष्क्रिय किया गया था."</string>
-    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"कॉल खत्म हो गया क्योंकि सेल्युलर डेटा तय सीमा पर पहुंच गया."</string>
-    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"डेटा सीमा पर पहुंच गए. कॉल खत्म हो गया."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"कॉल समाप्त हो गया क्योंकि सेल्यूलर डेटा निष्क्रिय किया गया था."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"कॉल समाप्त हो गया क्योंकि सेल्युलर डेटा तय सीमा पर पहुंच गया."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"डेटा सीमा पर पहुंच गए. कॉल समाप्त हो गया."</string>
 </resources>
