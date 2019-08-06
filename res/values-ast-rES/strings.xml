@@ -60,6 +60,7 @@
     <string name="callEnded_pulled">Tresfirióse la llamada a otru preséu.</string>
     <string name="ringtone_silent">Dengún</string>
     <string name="ringtone_unknown">Timbre desconocíu</string>
+    <string name="to_hint">1111:to;sip:abby@example.com:bcc;sip:bill@example.com:cc;</string>
     <string name="callFailed_maximum_reached">Toles llinies disponibles tán n\'usu. Pa facer llamaes, fina una d\'elles nesti preséu u otros preseos de to.</string>
     <string name="callFailed_data_disabled">Finó la llamada porque deshabilitáronse los datos móviles.</string>
     <string name="callFailed_data_limit_reached_description">Finó la llamada porque algamóse la llende de datos móviles.</string>
