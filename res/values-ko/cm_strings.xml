@@ -17,13 +17,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <string name="callFailed_low_battery">배터리 낮음</string>
-  <!-- Call method spinner - Default No SIM -->
-  <string name="call_method_spinner_item_no_sim">SIM 카드 없음</string>
-  <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
-  <string name="call_method_spinner_item_emergency_call">긴급 통화만 가능</string>
-  <string name="invalid_number_text">"%1$s이(가) 이 전화를 할 수 없었습니다. 이 번호가 정확합니까?"</string>
-  <!-- InCall Sign in button -->
-  <string name="sign_in_credit_banner_text">로그인</string>
+    <string name="callFailed_low_battery">배터리 낮음</string>
+    <string name="call_method_spinner_item_no_sim">SIM 카드 없음</string>
+    <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
+    <string name="call_method_spinner_item_emergency_call">긴급 통화만 가능</string>
+    <string name="invalid_number_text">"%1$s이(가) 이 전화를 할 수 없었습니다. 이 번호가 정확합니까?"</string>
+    <string name="sign_in_credit_banner_text">로그인</string>
 </resources>

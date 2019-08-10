@@ -17,7 +17,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <!-- Call method spinner - Default No SIM -->
-  <!-- InCall Sign in button -->
+    <string name="callFailed_low_battery">Batri isel</string>
+    <string name="call_method_spinner_item_no_sim">Dim cerdyn SIM</string>
+    <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="sim_slot_number">%d</xliff:g></string>
+    <string name="call_method_spinner_item_emergency_call">Galwadau brys yn unig</string>
+    <string name="invalid_number_text">"Methodd %1$s â gwneud yr alwad hon. Ydy'r rhif yn gywir?"</string>
+    <string name="sign_in_credit_banner_text">MEWNGOFNODI</string>
 </resources>

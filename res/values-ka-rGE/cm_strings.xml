@@ -17,7 +17,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <!-- Call method spinner - Default No SIM -->
-  <!-- InCall Sign in button -->
+    <string name="callFailed_low_battery">ბატარეა ჯდება</string>
+    <string name="sign_in_credit_banner_text">შესვლა</string>
 </resources>

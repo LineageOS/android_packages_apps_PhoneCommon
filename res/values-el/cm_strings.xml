@@ -17,13 +17,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <string name="callFailed_low_battery">Χαμηλή μπαταρία</string>
-  <!-- Call method spinner - Default No SIM -->
-  <string name="call_method_spinner_item_no_sim">Δεν υπάρχει κάρτα SIM</string>
-  <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
-  <string name="call_method_spinner_item_emergency_call">Μόνο κλήσεις έκτακτης ανάγκης</string>
-  <string name="invalid_number_text">"Το %1$s δεν μπόρεσε να πραγματοποιήσει αυτή την κλήση. Είναι σωστός ο αριθμός;"</string>
-  <!-- InCall Sign in button -->
-  <string name="sign_in_credit_banner_text">ΕΙΣΟΔΟΣ</string>
+    <string name="callFailed_low_battery">Χαμηλή μπαταρία</string>
+    <string name="call_method_spinner_item_no_sim">Δεν υπάρχει κάρτα SIM</string>
+    <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
+    <string name="call_method_spinner_item_emergency_call">Μόνο κλήσεις έκτακτης ανάγκης</string>
+    <string name="invalid_number_text">"Το %1$s δεν μπόρεσε να πραγματοποιήσει αυτή την κλήση. Είναι σωστός ο αριθμός;"</string>
+    <string name="sign_in_credit_banner_text">ΕΙΣΟΔΟΣ</string>
 </resources>

@@ -17,7 +17,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- In-call screen: call failure reason (call ended due to low battery) -->
-  <!-- Call method spinner - Default No SIM -->
-  <!-- InCall Sign in button -->
+    <string name="callFailed_low_battery">Zəif enerji</string>
+    <string name="call_method_spinner_item_no_sim">SİM kart tapılmadı</string>
+    <string name="call_method_spinner_item_unknown_sim">SIM <xliff:g id="slot_number">%d</xliff:g></string>
+    <string name="call_method_spinner_item_emergency_call">Yalnız fövqəladə vəziyyət zəngləri</string>
+    <string name="invalid_number_text">"%1$s bu zəngi edə bilmədi. Nömrə doğrudur?"</string>
+    <string name="sign_in_credit_banner_text">DAXİL OL</string>
 </resources>
