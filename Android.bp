@@ -18,3 +18,11 @@ android_app {
     resource_dirs: ["res"],
     sdk_version: "current",
 }
+
+// Build a static library for use in TeleService
+android_library {
+    name: "com.android.phone.common-lib",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    sdk_version: "current",
+}
