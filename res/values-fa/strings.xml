@@ -25,7 +25,7 @@
     <string name="default_notification_description" msgid="7586091743351742205">"صدای پیش‌فرض (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="8760595520859373561">"خط مشغول است"</string>
     <string name="callFailed_congestion" msgid="660130739882090863">"شبکه مشغول است"</string>
-    <string name="callFailed_timedOut" msgid="6780964135550644777">"پاسخی دریافت نشد، مهلت زمانی پایان یافت"</string>
+    <string name="callFailed_timedOut" msgid="6780964135550644777">"پاسخی دریافت نشد، درنگ پایان یافت"</string>
     <string name="callFailed_server_unreachable" msgid="7004372091099175338">"نمی‌توان به سرور دسترسی پیدا کرد"</string>
     <string name="callFailed_number_unreachable" msgid="2855741498610643943">"شماره در دسترس نیست"</string>
     <string name="callFailed_invalid_credentials" msgid="1915881596632385418">"نام کاربری یا گذرواژه اشتباه است"</string>

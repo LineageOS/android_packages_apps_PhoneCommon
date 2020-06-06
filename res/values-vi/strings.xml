@@ -51,7 +51,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="2812267231481193715">"Cuộc gọi thông thường bị hạn chế bởi kiểm soát truy cập."</string>
     <string name="callFailed_unobtainable_number" msgid="2048455732432022283">"Số không hợp lệ"</string>
     <string name="incall_error_missing_voicemail_number" msgid="4519524908114719666">"Số thư thoại không xác định."</string>
-    <string name="callFailed_video_call_tty_enabled" msgid="5419496275850000361">"Không thể gọi điện video khi TTY được bật."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="5419496275850000361">"Không thể gọi video khi TTY được bật."</string>
     <string name="callEnded_pulled" msgid="4824518546417807865">"Đã chuyển cuộc gọi tới một thiết bị khác."</string>
     <string name="ringtone_silent" msgid="1173111569760233645">"Không có"</string>
     <string name="ringtone_unknown" msgid="3036191370493284036">"Nhạc chuông không xác định"</string>
