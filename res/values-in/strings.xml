@@ -40,9 +40,9 @@
     <string name="callFailed_dialToUssd" msgid="6794913139176808973">"Panggilan diubah ke permintaan USSD"</string>
     <string name="callFailed_dialToSs" msgid="6749473185855000519">"Panggilan diubah ke permintaan SS"</string>
     <string name="callFailed_dialToDial" msgid="391531243214210803">"Diubah ke nomor yang berbeda"</string>
-    <string name="callFailed_dialToDialVideo" msgid="1405537953282276350">"Diubah ke video call"</string>
-    <string name="callFailed_dialVideoToSs" msgid="4187072851496468440">"Video call diubah ke permintaan SS"</string>
-    <string name="callFailed_dialVideoToUssd" msgid="4479951468674677111">"Video call diubah ke permintaan USSD"</string>
+    <string name="callFailed_dialToDialVideo" msgid="1405537953282276350">"Diubah ke panggilan video"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4187072851496468440">"Panggilan video diubah ke permintaan SS"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="4479951468674677111">"Panggilan video diubah ke permintaan USSD"</string>
     <string name="callFailed_dialVideoToDial" msgid="160029277192677751">"Diubah ke panggilan reguler"</string>
     <string name="callFailed_dialVideoToDialVideo" msgid="3976695729414283836">"Diubah ke nomor yang berbeda"</string>
     <string name="callFailed_cb_enabled" msgid="3555984829657638323">"Tidak dapat melakukan panggilan keluar saat pembatasan panggilan telepon aktif."</string>

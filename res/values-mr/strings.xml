@@ -45,7 +45,7 @@
     <string name="callFailed_dialVideoToUssd" msgid="4479951468674677111">"व्हिडिओ कॉल USSD विनंतीत बदलण्‍यात आला"</string>
     <string name="callFailed_dialVideoToDial" msgid="160029277192677751">"नियमित कॉलवर बदलण्‍यात आली"</string>
     <string name="callFailed_dialVideoToDialVideo" msgid="3976695729414283836">"वेगळ्या क्रमांकावर बदलण्‍यात आली"</string>
-    <string name="callFailed_cb_enabled" msgid="3555984829657638323">"कॉल वगळणे चालू असताना कॉल करू शकत नाही."</string>
+    <string name="callFailed_cb_enabled" msgid="3555984829657638323">"कॉल वगळणे सुरू असताना कॉल करू शकत नाही."</string>
     <string name="callFailed_dsac_restricted" msgid="4073547013432506074">"प्रवेश नियंत्रणाद्वारे कॉल प्रतिबंधित केले."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="3271861683273124458">"प्रवेश नियंत्रणाद्वारे आणीबाणी कॉल प्रतिबंधित केले."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2812267231481193715">"प्रवेश नियंत्रणाद्वारे सामान्य कॉल प्रतिबंधित केले."</string>
