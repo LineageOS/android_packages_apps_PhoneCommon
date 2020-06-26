@@ -21,7 +21,7 @@
     <string name="description_dialpad_overflow" msgid="386545562915853251">"更多选项"</string>
     <string name="description_delete_button" msgid="3440492396168418449">"删除"</string>
     <string name="description_image_button_plus" msgid="5473715983314974482">"加号"</string>
-    <string name="description_voicemail_button" msgid="3215317707268642855">"发语音邮件"</string>
+    <string name="description_voicemail_button" msgid="3215317707268642855">"发语音信息"</string>
     <string name="default_notification_description" msgid="7586091743351742205">"默认提示音(<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="8760595520859373561">"线路忙"</string>
     <string name="callFailed_congestion" msgid="660130739882090863">"网络忙"</string>
