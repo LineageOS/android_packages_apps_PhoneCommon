@@ -19,13 +19,13 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="description_dialpad_back" msgid="6948371942814365471">"پیمایش به عقب"</string>
     <string name="description_dialpad_overflow" msgid="386545562915853251">"گزینه‌های بیشتر"</string>
-    <string name="description_delete_button" msgid="3440492396168418449">"حذف نویسه قبلی"</string>
+    <string name="description_delete_button" msgid="3440492396168418449">"کلید پس‌بَر"</string>
     <string name="description_image_button_plus" msgid="5473715983314974482">"به‌علاوه"</string>
     <string name="description_voicemail_button" msgid="3215317707268642855">"پست صوتی"</string>
     <string name="default_notification_description" msgid="7586091743351742205">"صدای پیش‌فرض (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="8760595520859373561">"خط مشغول است"</string>
     <string name="callFailed_congestion" msgid="660130739882090863">"شبکه مشغول است"</string>
-    <string name="callFailed_timedOut" msgid="6780964135550644777">"پاسخی دریافت نشد، مهلت زمانی پایان یافت"</string>
+    <string name="callFailed_timedOut" msgid="6780964135550644777">"پاسخی دریافت نشد، درنگ پایان یافت"</string>
     <string name="callFailed_server_unreachable" msgid="7004372091099175338">"نمی‌توان به سرور دسترسی پیدا کرد"</string>
     <string name="callFailed_number_unreachable" msgid="2855741498610643943">"شماره در دسترس نیست"</string>
     <string name="callFailed_invalid_credentials" msgid="1915881596632385418">"نام کاربری یا گذرواژه اشتباه است"</string>
@@ -40,9 +40,9 @@
     <string name="callFailed_dialToUssd" msgid="6794913139176808973">"‏تماس به‌درخواست USSD تغییر کرد"</string>
     <string name="callFailed_dialToSs" msgid="6749473185855000519">"‏تماس به‌درخواست SS تغییر کرد"</string>
     <string name="callFailed_dialToDial" msgid="391531243214210803">"به شماره‌ای دیگر تغییر کرد"</string>
-    <string name="callFailed_dialToDialVideo" msgid="1405537953282276350">"به تماس ویدیویی تغییر کرد"</string>
+    <string name="callFailed_dialToDialVideo" msgid="1405537953282276350">"به تماس تصویری تغییر کرد"</string>
     <string name="callFailed_dialVideoToSs" msgid="4187072851496468440">"‏تماس ویدویی به‌درخواست SS تغییر کرد"</string>
-    <string name="callFailed_dialVideoToUssd" msgid="4479951468674677111">"‏تماس ویدیویی به‌درخواست USSD تغییر کرد"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="4479951468674677111">"‏تماس تصویری به‌درخواست USSD تغییر کرد"</string>
     <string name="callFailed_dialVideoToDial" msgid="160029277192677751">"به تماس معمولی تغییر کرد"</string>
     <string name="callFailed_dialVideoToDialVideo" msgid="3976695729414283836">"به شماره‌ای دیگر تغییر کرد"</string>
     <string name="callFailed_cb_enabled" msgid="3555984829657638323">"زمانی که مسدود کردن تماس روشن است، نمی‌توانید تماس خروجی برقرار کنید."</string>
@@ -51,7 +51,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="2812267231481193715">"تماس‌های عادی توسط کنترل دسترسی محدود شده است."</string>
     <string name="callFailed_unobtainable_number" msgid="2048455732432022283">"شماره نامعتبر است"</string>
     <string name="incall_error_missing_voicemail_number" msgid="4519524908114719666">"شماره پست صوتی ناشناس است."</string>
-    <string name="callFailed_video_call_tty_enabled" msgid="5419496275850000361">"‏هنگامی که TTY فعال است نمی‌توان تماس ویدئویی برقرار کرد."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="5419496275850000361">"‏هنگامی که TTY فعال است نمی‌توان تماس تصویری برقرار کرد."</string>
     <string name="callEnded_pulled" msgid="4824518546417807865">"تماس به دستگاهی دیگر منتقل شد."</string>
     <string name="ringtone_silent" msgid="1173111569760233645">"هیچ‌کدام"</string>
     <string name="ringtone_unknown" msgid="3036191370493284036">"آهنگ زنگ ناشناس"</string>
