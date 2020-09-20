@@ -26,4 +26,10 @@
     <string name="callFailed_dialVideoToDial">Chaidh atharrachadh gu gairm àbhaisteach</string>
     <string name="callFailed_dialVideoToDialVideo">Chaidh atharrachadh gu àireamh eile</string>
     <string name="callFailed_unobtainable_number">Àireamh mhì-dhligheach</string>
+    <string name="callFailed_video_call_tty_enabled">Chan urrainn dhut gairm video a dhèanamh fhad ’s a tha TTY an comas.</string>
+    <string name="callEnded_pulled">Chaidh a’ ghairm a shìneadh air adhart gu uidheam eile.</string>
+    <string name="callFailed_maximum_reached">Tha a h-uile loidhne trang. Airson gairm a dhèanamh, cuir crìoch air tè de na gairmean air an uidheam seo no air far dhe na h-uidheaman eile agad.</string>
+    <string name="callFailed_data_disabled">Thàinig a’ ghairm gu crìoch air sgàth ’s gun deach an dàta mobile a chur à comas.</string>
+    <string name="callFailed_data_limit_reached_description">Thàinig a’ ghairm gu crìoch on a ràinig thu crìoch an dàta mobile.</string>
+    <string name="callFailed_data_limit_reached">Ràinig thu crìoch an dàta. Thàinig a’ ghairm gu crìoch.</string>
 </resources>
