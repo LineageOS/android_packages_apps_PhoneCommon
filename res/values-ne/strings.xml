@@ -47,7 +47,7 @@
     <string name="callFailed_dialVideoToDialVideo" msgid="3976695729414283836">"फरक नम्बरमा परिवर्तन गरियो"</string>
     <string name="callFailed_cb_enabled" msgid="3555984829657638323">"कल निषेध सकृय हुँदा बहिर्गमन कल गर्न सक्दैन।"</string>
     <string name="callFailed_dsac_restricted" msgid="4073547013432506074">"पहुँच नियन्त्रणमार्फत कलहरू प्रतिबन्धित।"</string>
-    <string name="callFailed_dsac_restricted_emergency" msgid="3271861683273124458">"पहुँच नियन्त्रणमार्फत आपतकालीन कलहरू प्रतिबन्धित।"</string>
+    <string name="callFailed_dsac_restricted_emergency" msgid="3271861683273124458">"पहुँच नियन्त्रणमार्फत आपत्‌कालीन कलहरू प्रतिबन्धित।"</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2812267231481193715">"पहुँच नियन्त्रणमार्फत सामान्य कलहरू प्रतिबन्धित।"</string>
     <string name="callFailed_unobtainable_number" msgid="2048455732432022283">"अमान्य सङ्ख्या"</string>
     <string name="incall_error_missing_voicemail_number" msgid="4519524908114719666">"भ्वाइसमेल नम्बर अज्ञात छ।"</string>
