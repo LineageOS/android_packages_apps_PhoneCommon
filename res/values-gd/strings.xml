@@ -44,7 +44,7 @@
     <string name="callFailed_powerOff">Tha an rèidio dheth</string>
     <string name="callFailed_simError">Gun SIM no mearachd SIM</string>
     <string name="callFailed_outOfService">Chan eil lìonra mobile ri làimh</string>
-    <string name="callFailed_fdn_only">Chaidh gairmean a-mach a chuingeachadh le FDN.</string>
+    <string name="callFailed_fdn_only">Chaidh gairmean a-mach a chuingeachadh le àireamhan daithealaidh socraichte.</string>
     <string name="callFailed_dialToUssd">Chaidh a’ ghairm atharrachadh gu iarrtas USSD</string>
     <string name="callFailed_dialToSs">Chaidh a’ ghairm atharrachadh gu iarrtas SS</string>
     <string name="callFailed_dialToDial">Chaidh atharrachadh gu àireamh eile</string>
@@ -59,7 +59,7 @@
     <string name="callFailed_dsac_restricted_normal">Tha gairmean àbhaisteach cuingichte le smachd air inntrigeadh.</string>
     <string name="callFailed_unobtainable_number">Àireamh mhì-dhligheach</string>
     <string name="incall_error_missing_voicemail_number">Chan eil fios dè àireamh a’ phuist-ghutha.</string>
-    <string name="callFailed_video_call_tty_enabled">Chan urrainn dhut gairm video a dhèanamh fhad ’s a tha TTY an comas.</string>
+    <string name="callFailed_video_call_tty_enabled">Chan urrainn dhut gairm video a dhèanamh fhad ’s a tha am fònadh teacsa an comas.</string>
     <string name="callEnded_pulled">Chaidh a’ ghairm a shìneadh air adhart gu uidheam eile.</string>
     <string name="ringtone_silent">Gun seirm</string>
     <string name="ringtone_unknown">Seirm na aithne dhuinn</string>
