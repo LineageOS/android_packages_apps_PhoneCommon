@@ -23,7 +23,7 @@
     <string name="description_image_button_plus" msgid="5473715983314974482">"פלוס"</string>
     <string name="description_voicemail_button" msgid="3215317707268642855">"דואר קולי"</string>
     <string name="default_notification_description" msgid="7586091743351742205">"צליל ברירת מחדל (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
-    <string name="callFailed_userBusy" msgid="8760595520859373561">"הקו לא פנוי"</string>
+    <string name="callFailed_userBusy" msgid="8760595520859373561">"הקו תפוס"</string>
     <string name="callFailed_congestion" msgid="660130739882090863">"רשת לא פנויה"</string>
     <string name="callFailed_timedOut" msgid="6780964135550644777">"אין תגובה, הזמן הקצוב פג"</string>
     <string name="callFailed_server_unreachable" msgid="7004372091099175338">"אין אפשרות ליצור קשר עם השרת"</string>
