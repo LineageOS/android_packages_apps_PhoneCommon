@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <string name="callFailed_no_circuit_avail">Netwurk net beskikber</string>
+    <string name="callFailed_network_out_of_order">Netwurk bûten tsjinst</string>
+    <string name="callFailed_no_route_to_destination">Gjin rûte nei bestimming</string>
+    <string name="callFailed_channel_unacceptable">Kanaal ôfwezen</string>
+    <string name="callFailed_operator_determined_barring">Blokkearre troch provider</string>
+    <string name="callFailed_normal">Oprop beëinige</string>
+    <string name="callFailed_no_user_responding">Net opnommen</string>
+    <string name="callFailed_no_answer_from_user">Gjin antwurd</string>
+    <string name="callFailed_call_rejected">Oprop net akseptearre</string>
+    <string name="callFailed_number_changed">Nûmer wizige</string>
+    <string name="callFailed_preemption">Line reservearre</string>
+    <string name="callFailed_destination_out_of_order">Bestimming bûten wurking</string>
+    <string name="callFailed_invalid_number_format">Unjildich nûmerformaat (net folslein nûmer)</string>
+    <string name="callFailed_facility_rejected">Fasiliteit ôfwezen</string>
+    <string name="callFailed_resp_to_status_enquiry">Reaksje op STATUS ENQUIRY</string>
+    <string name="callFailed_normal_unspecified">Normaal, net spesifisearre</string>
+    <string name="callFailed_tempopary_failure">Tydlike steuring</string>
+    <string name="callFailed_switching_equipment_congestion">Kongestje op de line</string>
+    <string name="callFailed_access_information_discarded">Tagongsynformaasje fuortsmiten</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">Frege sirkwy/kanaal net beskikber</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">Boarnen net beskikber of net spesifisearre</string>
+    <string name="callFailed_QOS_unavailable">Kwaliteit fan tsjinst net beskikber</string>
+    <string name="callFailed_requested_facility_not_subscribed">Net abonnearre op frege funksje</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">Ynkommende oproppen blokkearre yn de CUG</string>
+    <string name="callFailed_bearer_capability_not_authorized">Funksjonaliteit net tastien</string>
+    <string name="callFailed_bearer_capability_unavailable">Funksjonaliteit net beskikber</string>
+    <string name="callFailed_service_option_not_available">Tsjinst of opsje net beskikber of net spesifisearre</string>
+    <string name="callFailed_bearer_service_not_implemented">Netwurktsjinst net ymplemintearre</string>
+    <string name="callFailed_requested_facility_not_implemented">Frege funksje net ymplemintearre</string>
+    <string name="callFailed_only_digital_information_bearer_available">Funksjonaliteit is mar diels beskikber</string>
+    <string name="callFailed_service_or_option_not_implemented">Tsjinst of opsje net ymplemintearre of net spesifisearre</string>
+    <string name="callFailed_invalid_transaction_identifier">Unjildige wearde transaksje-ID</string>
+    <string name="callFailed_user_not_member_of_CUG">Brûker is gjin lid fan de CUG</string>
+    <string name="callFailed_incompatible_destination">Ynkompatibele bestimming</string>
+    <string name="callFailed_invalid_transit_NW_selection">Unjildige netwurkferbining</string>
+    <string name="callFailed_semantically_incorrect_message">Semantysk net krekt berjocht</string>
+    <string name="callFailed_invalid_mandatory_information">Unjildige ferplichte ynformaasje</string>
+    <string name="callFailed_message_type_non_implemented">Berjochttype bestiet net of net ymplemintearre</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">Berjochttype net kompatibel mei protokolsteat</string>
+    <string name="callFailed_information_element_non_existent">Ynformaasje-elemint betiet net of is net ymplemintearre</string>
+    <string name="callFailed_conditional_IE_error">Kondisjonele IE-flater</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Berjocht net kompatibel mei protokolsteat</string>
+    <string name="callFailed_recovery_on_timer_expired">Werstel nei ôfrinnen fan de timer</string>
+    <string name="callFailed_protocol_error_unspecified">Protokolflater, net spesifisearre</string>
+    <string name="callFailed_interworking_unspecified">Gearwurking, net spesifisearre</string>
+    <string name="callFailed_non_selected_user_clearing">Wegere as gefolch fan ûnbekende brûker</string>
+</resources>

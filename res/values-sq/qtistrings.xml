@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <string name="callFailed_no_circuit_avail">Asnjë qark i disponueshëm</string>
+    <string name="callFailed_network_out_of_order">Rrjeti jashtë shërbimit</string>
+    <string name="callFailed_no_route_to_destination">Asnjë rruge për në destinacion</string>
+    <string name="callFailed_channel_unacceptable">Kanal i papranueshëm</string>
+    <string name="callFailed_operator_determined_barring">Bllokim i përcaktuar nga operatori</string>
+    <string name="callFailed_normal">Pastrim normal i telefonatës</string>
+    <string name="callFailed_no_user_responding">Asnjë përgjigje nga përdoruesi</string>
+    <string name="callFailed_no_answer_from_user">Duke njoftuar përdoruesin, asnjë përgjigje</string>
+    <string name="callFailed_call_rejected">Thirrja u refuzua</string>
+    <string name="callFailed_number_changed">Numri ka ndryshuar</string>
+    <string name="callFailed_preemption">Ndërprerje për arsye përparësie</string>
+    <string name="callFailed_destination_out_of_order">Destinacioni jashtë përdorimit</string>
+    <string name="callFailed_invalid_number_format">Formati i numrit është i pavlefshëm (numër jo i plotë)</string>
+    <string name="callFailed_facility_rejected">Funksionimi është refuzuar</string>
+    <string name="callFailed_resp_to_status_enquiry">Përgjigje për KËRKESËN RRETH STATUSIT</string>
+    <string name="callFailed_normal_unspecified">Normal, i papërcaktuar</string>
+    <string name="callFailed_tempopary_failure">Problem i përkohshëm</string>
+    <string name="callFailed_switching_equipment_congestion">Kongjestion i aparaturës së ndërrimit</string>
+    <string name="callFailed_access_information_discarded">Informacioni i aksesit është fshirë</string>
+    <string name="callFailed_requested_circuit_or_channel_not_available">Qarku/kanali i kërkuar nuk është i disponueshëm</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">Burimet janë të padisponueshme ose të paspecifikuara</string>
+    <string name="callFailed_QOS_unavailable">Cilësia e shërbimit nuk është e disponueshme</string>
+    <string name="callFailed_requested_facility_not_subscribed">Funksioni i kërkuar nuk është i abonuar</string>
+    <string name="callFailed_incoming_calls_barred_within_CUG">Thirrjet hyrëse të bllokuara brenda CUG</string>
+    <string name="callFailed_bearer_capability_not_authorized">Aftësia e bartësit nuk është e autorizuar</string>
+    <string name="callFailed_bearer_capability_unavailable">Aftësia e bartësit aktualisht nuk është e disponueshme</string>
+    <string name="callFailed_service_option_not_available">Shërbim ose opsion i paautorizuar apo i paspecifikuar</string>
+    <string name="callFailed_bearer_service_not_implemented">Shërbimi i bartësit nuk është implementuar</string>
+    <string name="callFailed_requested_facility_not_implemented">Funksioni i kërkuar nuk është implementuar</string>
+    <string name="callFailed_only_digital_information_bearer_available">Vetëm aftësia e bartësit për informacione dixhitale të kufizuara është e disponueshme</string>
+    <string name="callFailed_service_or_option_not_implemented">Shërbim ose opsion i paimplementuar apo i paspecifikuar</string>
+    <string name="callFailed_invalid_transaction_identifier">Vlera e identifikimit të tranzaksionit është e pavlefshme</string>
+    <string name="callFailed_user_not_member_of_CUG">Përdoruesi nuk është anëtar i CUG</string>
+    <string name="callFailed_incompatible_destination">Destinacion i mospërputhshëm</string>
+    <string name="callFailed_invalid_transit_NW_selection">Përzgjedhja e rrjetit tranzit është e pavlefshme</string>
+    <string name="callFailed_semantically_incorrect_message">Mesazh semantikisht i pasaktë</string>
+    <string name="callFailed_invalid_mandatory_information">Informacion i detyrueshëm i pasaktë</string>
+    <string name="callFailed_message_type_non_implemented">Lloji i mesazhit nuk ekziston ose nuk është implementuar</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">Lloji i mesazhit nuk përputhet me statusin e protokollit</string>
+    <string name="callFailed_information_element_non_existent">Elementi i informacionit nuk ekziston ose nuk është implementuar</string>
+    <string name="callFailed_conditional_IE_error">Gabim IE i pakushtëzuar</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">Mesazhi nuk përputhet me statusin e protokollit</string>
+    <string name="callFailed_recovery_on_timer_expired">Rikuperim në skadim të kohëmatësit</string>
+    <string name="callFailed_protocol_error_unspecified">Gabim protokolli, i paspecifikuar</string>
+    <string name="callFailed_interworking_unspecified">Interoperim, i paspecifikuar</string>
+    <string name="callFailed_non_selected_user_clearing">Pastrimi i përdoruesit i pazgjedhur</string>
+</resources>

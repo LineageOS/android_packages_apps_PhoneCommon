@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <string name="callFailed_no_circuit_avail">사용 가능한 회선 없음</string>
+    <string name="callFailed_network_out_of_order">네트워크 사용 불가</string>
+    <string name="callFailed_no_route_to_destination">연락할 번호 없음</string>
+    <string name="callFailed_channel_unacceptable">채널 허용 불가</string>
+    <string name="callFailed_operator_determined_barring">통신사에서 일시 정지함</string>
+    <string name="callFailed_normal">정상 호출 취소</string>
+    <string name="callFailed_no_user_responding">사용자 응답 없음</string>
+    <string name="callFailed_number_changed">번호 변경됨</string>
+    <string name="callFailed_invalid_number_format">올바르지 않은 번호 형식 (형식에 맞지 않는 번호)</string>
+    <string name="callFailed_resp_to_status_enquiry">STATUS ENQUIRY에 대한 응답</string>
+    <string name="callFailed_tempopary_failure">임시적 오류</string>
+    <string name="callFailed_switching_equipment_congestion">장비 전환 지연</string>
+    <string name="callFailed_resources_unavailable_or_unspecified">리소스를 이용할 수 없거나 지정되지 않음</string>
+    <string name="callFailed_service_option_not_available">서비스 또는 옵션을 사용할 수 없거나 지정되지 않음</string>
+    <string name="callFailed_invalid_transit_NW_selection">잘못된 네트워크 선택</string>
+    <string name="callFailed_semantically_incorrect_message">의미 상 올바르지 않은 메시지</string>
+    <string name="callFailed_invalid_mandatory_information">잘못된 필수 정보</string>
+    <string name="callFailed_message_type_non_implemented">메시지 유형이 존재하지 않거나 구현되지 않음</string>
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">프로토콜의 상태와 메시지 유형이 호환되지 않음</string>
+    <string name="callFailed_information_element_non_existent">존재하지 않거나 구현되지 않은 정보 요소</string>
+    <string name="callFailed_conditional_IE_error">조건부 IE 오류</string>
+    <string name="callFailed_message_not_compatible_with_protocol_state">프로토콜의 상태와 메시지가 호환되지 않음</string>
+    <string name="callFailed_recovery_on_timer_expired">타이머 만료 시 복구</string>
+    <string name="callFailed_protocol_error_unspecified">명시되지 않은 프로토콜 오류</string>
+    <string name="callFailed_interworking_unspecified">명시되지 않은 상호 연동</string>
+    <string name="callFailed_non_selected_user_clearing">선택되지 않은 사용자 삭제</string>
+</resources>
