@@ -15,6 +15,7 @@
   ~ limitations under the License
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back">Navigate back</string>
     <string name="description_dialpad_overflow">Rhagor o ddewisiadau</string>
     <string name="description_delete_button">bysell backspace</string>
     <string name="description_image_button_plus">plws</string>
