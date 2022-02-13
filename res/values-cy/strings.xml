@@ -26,6 +26,7 @@
     <string name="dialpad_7_letters">PQRS</string>
     <string name="dialpad_8_letters">TUV</string>
     <string name="dialpad_9_letters">WXYZ</string>
+    <string name="description_dialpad_back">Navigate back</string>
     <string name="description_dialpad_overflow">Rhagor o ddewisiadau</string>
     <string name="description_delete_button">bysell backspace</string>
     <string name="description_image_button_plus">plws</string>
