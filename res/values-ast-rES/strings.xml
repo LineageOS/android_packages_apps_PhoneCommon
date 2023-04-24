@@ -15,6 +15,7 @@
   ~ limitations under the License
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back">Navigate back</string>
     <string name="description_dialpad_overflow">Más opciones</string>
     <string name="description_delete_button">retrocesu</string>
     <string name="description_image_button_plus">más</string>
@@ -34,12 +35,26 @@
     <string name="callFailed_simError">Nun hai nenguna SIM o produxo un fallu</string>
     <string name="callFailed_outOfService">La rede móvil nun ta disponible</string>
     <string name="callFailed_fdn_only">Los NMF torguen les llamaes salientes.</string>
+    <string name="callFailed_dialToUssd">La llamada convirtióse nuna solicitú USSD</string>
+    <string name="callFailed_dialToSs">La llamada convirtióse nuna solicitú SS</string>
+    <string name="callFailed_dialToDial">Convirtióse a un númberu diferente</string>
+    <string name="callFailed_dialToDialVideo">Convirtióse a una videollamada</string>
+    <string name="callFailed_dialVideoToSs">La videollamada convirtióse nuna solicitú SS</string>
+    <string name="callFailed_dialVideoToUssd">La videollamada convirtióse nuna solicitú USSD</string>
+    <string name="callFailed_dialVideoToDial">Convirtióse a una llamada estándar</string>
+    <string name="callFailed_dialVideoToDialVideo">Convirtióse a un númberu diferente</string>
     <string name="callFailed_cb_enabled">Nun se puen facer llamaes mentanto\'l bloquéu de llamaes ta activáu.</string>
     <string name="callFailed_dsac_restricted">El control d\'accesos torga les llamaes.</string>
     <string name="callFailed_dsac_restricted_emergency">El control d\'accesos torga les llamaes d\'emerxencia.</string>
     <string name="callFailed_dsac_restricted_normal">El control d\'accesos torga les llamaes estándar.</string>
     <string name="callFailed_unobtainable_number">El númberu nun ye válidu</string>
     <string name="incall_error_missing_voicemail_number">El númberu del buzón de voz ye desconocíu.</string>
+    <string name="callFailed_video_call_tty_enabled">Nun se puen facer videollamaes cuando\'l mou TTY ta activáu.</string>
+    <string name="callEnded_pulled">La llamada tresfirióse a otru preséu.</string>
     <string name="ringtone_silent">Nengún</string>
     <string name="ringtone_unknown">Timbre desconocíu</string>
+    <string name="callFailed_maximum_reached">Toles llinies disponibles tán n\'usu.  Pa facer una llamada, desconecta una de les llamaes nesti preséu o n\'otru de los tos preseos.</string>
+    <string name="callFailed_data_disabled">La llamada finó porque se desactivaron los datos móviles.</string>
+    <string name="callFailed_data_limit_reached_description">La llamada finó porque s\'algamó la llende de los datos móviles.</string>
+    <string name="callFailed_data_limit_reached">Algamóse la llende de datos. La llamada finó.</string>
 </resources>
